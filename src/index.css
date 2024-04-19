@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --background:#F5F5F5;
+  --on-background: #282C35;
+  --secondary:#Ed6931;
+  --on-secondary:#fff;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: Raleway, sans-serif;
+  overflow: hidden;
+}
+
+/* .home img{
+  height: 100vh;
+  width: 40vw;
+  background-color: white;
+  color: var(--on-background);
+  font-size: 30px;
+  font-weight: 900;
+  transform: scaleX(-1);
+} */
+
+.layout-container{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  border: 1px solid blue;
+}
+
+.top-nav {
+  /* border: 1px solid red; */
+  height: 8%;
+  display: flex;
+  align-items: center;
+  padding-left: 55%;
+  
+}
+
+.top-nav ul {
+  /* border: 0.5px solid var(--on-background); */
+  width: 65%;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 90%;
+  border-radius: 20px;
+  /* background-color:#C0C0F2 ; */
+}
+
+.top-nav li {
+  cursor: pointer;
+  
+}
+
+.top-nav li:hover {
+  color: var(--secondary);
+}
+
+.nav-icon{
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  color: var(--on-background);
+  
+}
+
+.nav-icon-active{
+  color: var(--secondary);
+}
+
+
+.side-nav{
+  height: 50%;
+  /* border: 1px solid gold; */
+  width: 5%;
+  margin: 8% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-nav ul{
+  /* border: 1px solid red; */
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.side-nav li{
+  cursor: pointer;
+  
+  
+}
+
+.side-nav li:hover {
+  color: var(--secondary);
+}
+
+
+
+.arrow{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+ 
+}
+
+.arrow > button{
+  height: 14%;
+  width: 80%;
+  border-radius: 50%;
+  border: 1px solid var(--on-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .3s ease;
+}
+
+.arrow > button:hover{
+  transform: scale(105%);
+}
+
+.arrow-icon{
+  color: var(--secondary);
+  font-size: 23px;
+  background-color: transparent;
+}
+
+

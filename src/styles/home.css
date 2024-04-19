@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #F5F5F5;
+    --on-background: #282C35;
+    --secondary: #Ed6931;
+    --on-secondary: #fff;
+}
+
+
+.home-container {
+    /* border: 1px solid red; */
+    height: 90%;
+    width: 92%;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.home-text {
+    width: 56%;
+    height: 95%;
+    /* border: 1px solid blue; */
+}
+
+.home-image {
+    width: 35%;
+    height: 95%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-arrow {
+    width: 8%;
+    height: 95%;
+    /* border: 1px solid gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image img {
+    transform: scaleX(-1);
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid brown; */
+}
+
+.home-text h1 {
+
+    color: var(--background);
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 140px;
+    line-height: 140px;
+    font-family: lobster;
+    font-weight: 100;
+    /* border: 1px solid blue; */
+    padding: 0px;
+
+
+}
+
+.home-text>div {
+    font-size: 52px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.home-text span {
+    color: var(--secondary);
+}
+
+.home-text p {
+    padding-left: 10px;
+    text-align: justify;
+}
+
+h5 {
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.logos-container {
+    width: 95%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+
+.logo {
+    height: 100%;
+    width: 6.5%;
+    transition: transform .3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(115%);
+    cursor: pointer;
+}
+
+#resume {
+    width: 25%;
+    border: 1px solid var(--secondary);
+    border-radius: 15px;
+    height: 10%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all .3s ease-in;
+}
+
+#resume:hover {
+    background-color: var(--secondary);
+    color: var(--background);
+}

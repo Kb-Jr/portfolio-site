@@ -11,6 +11,7 @@ const Layout = () => {
 
   return (
     <div className='layout-container'>
+      <div className="top-bar"></div>
         <div className="top-nav">
             <ul>
                 {topNavLinks.map((item) => {
@@ -35,6 +36,9 @@ const Layout = () => {
                 })}
             </ul>
 
+        </div>
+        <div className="bottom-bar">
+          
         </div>
 
         <Outlet />

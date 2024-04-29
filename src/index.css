@@ -30,7 +30,7 @@
   height: 100vh;
   width: 100vw;
   position: relative;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   overflow: hidden;
   background-color: var(--background);
 }
@@ -224,6 +224,6 @@
   
 }
 
-.swiper-slide:hover{
+/* .swiper-slide:hover{
   transform: scale(102%);
-}
+} */

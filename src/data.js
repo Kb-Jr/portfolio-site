@@ -1,4 +1,3 @@
-// import { React_img, Frontend_mentor_img, Django_img, Javascript_img, HtmlxCss_img } from "."
 import {default as React_img} from './assets/React_image.png'
 import {default as Frontend_mentor_img} from './assets/frontend_mentor_image.png'
 import {default as Django_img} from './assets/django_image.png'
@@ -61,26 +60,170 @@ export const projectsData = [
         title:'React Projects',
         image: React_img,
         Description:'This section contains details of projects I have worked on  using react js framework as well as other third party libraries.',
-    },
-    {
-        title:'Frontend Mentor Projects',
-        image:Frontend_mentor_img,
-        Description:'This section contains details of projects I have worked on as Challenges on the frontend mentor platform.',
-    },
-    {
-        title:'Django Projects',
-        image:Django_img,
-        Description:'This section contains details of projects worked on when I enrolled in Harvards CS50W course. The Projects were executed using the Django framework.',
+        urlTo:'/projects/react-projects'
     },
     {
         title:'Javascript Projects',
         image:Javascript_img,
         Description:'In this section you will find a variety of projects carried out using pure javascript.',
+        urlTo:'/projects/javascript-projects'
     },
+    {
+        title:'Django Projects',
+        image:Django_img,
+        Description:'This section contains details of projects worked on when I enrolled in Harvards CS50W course. The Projects were executed using the Django framework.',
+        urlTo:'/projects/django-projects'
+    },
+    {
+        title:'Frontend Mentor Projects',
+        image:Frontend_mentor_img,
+        Description:'This section contains details of projects I have worked on as Challenges on the frontend mentor platform.',
+        urlTo:'/projects/frontendmentor-projects'
+    },
+
     {
         title:'Landing pages',
         image:HtmlxCss_img,
         Description:'This section contains Web pages built using purely HTML and CSS.',
+        urlTo:'/projects/landingpages'
     }
+]
+
+export const reactProjects = [
+    {
+        image:'1',
+        title:'11',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+]
+export const javascriptProjects = [
+    {
+        image:'',
+        title:'33',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+]
+export const djangoProjects = [
+    {
+        image:'',
+        title:'22',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+]
+export const frontendMentorProjects = [
+    {
+        image:'',
+        title:'44',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+   
+]
+
+export const landingPagesProjects = [
+    {
+        image:'',
+        title:'55',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
+    {
+        image:'',
+        title:'',
+        Description:''
+    },
 ]
 

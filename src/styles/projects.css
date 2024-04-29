@@ -48,7 +48,7 @@
 .projects-header-text h6{
     font-size: 34px;
     font-weight: 900;
-    font-family: lobster, sans-serif;
+    font-family: raleway, sans-serif;
     line-height: 38px;
 }
 
@@ -106,5 +106,9 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
+}
+
+.project-click-container button:hover{
+    color:var(--secondary);
 }
 

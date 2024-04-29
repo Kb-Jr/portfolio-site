@@ -1,9 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {projectsData} from '../data'
-import { useNavigate } from 'react-router-dom'
-
+import {landingPagesProjects} from '../data'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -17,9 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
-function MainProjectsSlides() {
-  const navigate = useNavigate();
-
+function LandingPagesSlides() {
     return (
         <>
         <Swiper
@@ -37,9 +33,9 @@ function MainProjectsSlides() {
           className="mySwiper"
           style={{"--swiper-pagination-color": "#Ed6931"}}
         >
-          {projectsData.map((item) => {
+          {landingPagesProjects.map((item) => {
             return(
-              <SwiperSlide key={crypto.randomUUID()} onClick={() => navigate(`${item.urlTo}`)}>
+              <SwiperSlide key={crypto.randomUUID()}>
                 <div className="project-image-container">
                     <img src={item.image} alt="" className='project-image' />
                 </div>
@@ -48,7 +44,7 @@ function MainProjectsSlides() {
                     <p>{item.Description}</p>
                 </div>
                 <div className="project-click-container">
-                    <button onClick={() => navigate(`${item.urlTo}`)}><FontAwesomeIcon icon="fa-solid fa-hand-pointer" style={{marginRight:5}} /> Click here to See details</button>
+                    <button><FontAwesomeIcon icon="fa-solid fa-hand-pointer" style={{marginRight:5}} /> Click here to See more details</button>
                 </div>
               </SwiperSlide>
             )
@@ -58,4 +54,4 @@ function MainProjectsSlides() {
       )
     }
 
-export default MainProjectsSlides;
+export default LandingPagesSlides;

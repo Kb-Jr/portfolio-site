@@ -19,3 +19,43 @@
      align-items: center;
      justify-content: space-around;
 }
+
+
+.modal{
+    @apply w-full backdrop-blur-sm backdrop-opacity-90
+   
+}
+
+.modal-box{
+    @apply max-w-screen-2xl h-full bg-inherit rounded-none shadow-none text-white p-0
+
+}
+
+.modal-body{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-modal{
+    width: 40%;
+    height: 95%;
+    /* border: 1px solid gold; */
+}
+
+.line{
+    width: 3px;
+    height: 80%;
+    background-color: #F5F5F5;
+}
+
+.right-modal {
+    width: 58%;
+    /* border: 1px solid green; */
+    height: 95%;
+}
+
+  

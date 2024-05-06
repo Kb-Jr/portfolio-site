@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import JavascriptProjectsSlides from '../components/JavascriptProjectsSlides'
 
 const JavascriptProjects = () => {
   const navigate = useNavigate();
@@ -17,10 +16,9 @@ const JavascriptProjects = () => {
 
       <div className="projects-body">
             <div className="projects-header-text">
-              <h6>Javascript Projects</h6>
+              <h6><span>Javascript</span> Projects</h6>
             </div>
             <div className="projects">
-              <JavascriptProjectsSlides />
             </div>
             
       </div>

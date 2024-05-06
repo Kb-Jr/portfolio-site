@@ -35,12 +35,12 @@ function MainProjectsSlides() {
         }}
 
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper-main"
         style={{ "--swiper-pagination-color": "#Ed6931" }}
       >
         {projectsData.map((item) => {
           return (
-            <SwiperSlide key={crypto.randomUUID()} onClick={() => navigate(`${item.urlTo}`)}>
+            <SwiperSlide key={crypto.randomUUID()} onClick={() => navigate(`${item.urlTo}`)} className='swiper-slide-main'>
               <div className="project-image-container">
                 <img src={item.image} alt="" className='project-image' />
               </div>

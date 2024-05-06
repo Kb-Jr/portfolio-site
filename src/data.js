@@ -3,6 +3,20 @@ import {default as Frontend_mentor_img} from './assets/frontend_mentor_image.png
 import {default as Django_img} from './assets/django_image.png'
 import {default as Javascript_img} from './assets/javascript_image.jpg'
 import {default as HtmlxCss_img} from './assets/htmlxcss_image.webp'
+import {default as dashboard_prj2} from './assets/dashboard_project2.jpg'
+import {default as dashboard_thumb} from './assets/dashboard_thumb.jpg'
+import {default as dashboard_1} from './assets/react/dashboard/dashboard_1.png'
+import {default as dashboard_2} from './assets/react/dashboard/dashboard_2.png'
+import {default as dashboard_3} from './assets/react/dashboard/dashboard_3.png'
+import {default as dashboard_4} from './assets/react/dashboard/dashboard_4.png'
+import {default as dashboard_5} from './assets/react/dashboard/dashboard_5.png'
+import {default as dashboard_6} from './assets/react/dashboard/dashboard_6.png'
+import {default as dashboard_7} from './assets/react/dashboard/dashboard_7.png'
+import {default as dashboard_8} from './assets/react/dashboard/dashboard_8.png'
+import {default as dashboard_9} from './assets/react/dashboard/dashboard_9.png'
+import {default as dashboard_10} from './assets/react/dashboard/dashboard_10.png'
+import {default as dashboard_11} from './assets/react/dashboard/dashboard_11.png'
+import {default as dashboard_12} from './assets/react/dashboard/dashboard_12.png'
 
 
 export const topNavLinks = [
@@ -91,31 +105,54 @@ export const projectsData = [
 
 export const reactProjects = [
     {
-        image:'1',
-        title:'11',
-        Description:''
+        image: dashboard_thumb,
+        title:'Dashboard',
+        Description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi.',
+        utilized: 'Javascript, React, Tailwind, CSS, Syncfusion.',
+        pro_images: [dashboard_1,dashboard_2,dashboard_3,dashboard_4,dashboard_5, dashboard_6, dashboard_7, dashboard_8, dashboard_9, dashboard_10,dashboard_11, dashboard_12],
+        github_link:'github.com',
+        live_link:'http.com',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_thumb,
+        title:'12',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [ Django_img, Javascript_img, Frontend_mentor_img, React_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'13',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'15',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
+
 ]
+
+
 export const javascriptProjects = [
     {
         image:'',

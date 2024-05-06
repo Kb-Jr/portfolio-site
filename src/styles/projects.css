@@ -52,10 +52,19 @@
     line-height: 38px;
 }
 
+.projects-header-text span{
+    color: var(--secondary);
+}
+
 .projects{
     height: 85%;
     width: 100%;
     /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 

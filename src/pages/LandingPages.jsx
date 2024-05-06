@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import LandingPagesSlides from '../components/LandingPagesSlides'
 
 const LandingPages = () => {
   const navigate = useNavigate();
@@ -17,10 +16,9 @@ const LandingPages = () => {
 
     <div className="projects-body">
       <div className="projects-header-text">
-        <h6>Landing Pages</h6>
+        <h6><span>Landing Pages</span></h6>
       </div>
       <div className="projects">
-        <LandingPagesSlides />
       </div>
 
     </div>

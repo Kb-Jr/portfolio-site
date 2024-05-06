@@ -1,8 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import ReactProjectsSlides from '../components/ReactProjectsSlides'
-
+import { reactProjects } from '../data'
+import { Modal } from '..'
 
 const ReactProjects = () => {
   const navigate = useNavigate();
@@ -20,12 +20,29 @@ const ReactProjects = () => {
 
       <div className="projects-body">
         <div className="projects-header-text">
-          <h6>React Projects</h6>
+          <h6><span>React</span> Projects</h6>
 
         </div>
         <div className="projects">
-          <ReactProjectsSlides />
-        </div>
+          {reactProjects.map((item) => {
+
+            return(
+              <>
+              
+                <div className='projects-each' key={crypto.randomUUID()}> 
+                  {/* <h1>{item.title}</h1> */}
+                  <div className='projects-each-image'>
+                      <img src={item.image} alt="" />
+                  </div>
+                  
+                  <Modal title={item.title} images={item.pro_images} description={item.Description} used={item.utilized} github={item.github_link} live={item.live_link}/>
+                </div>
+
+               
+              </>
+            )
+          })}
+        </div> 
 
       </div>
 

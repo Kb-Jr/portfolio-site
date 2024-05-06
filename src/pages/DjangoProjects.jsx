@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import DjangoProjectsSlides from '../components/DjangoProjectsSlides'
 
 const DjangoProjects = () => {
   const navigate = useNavigate();
@@ -17,10 +16,9 @@ const DjangoProjects = () => {
 
       <div className="projects-body">
             <div className="projects-header-text">
-              <h6>Django Projects</h6>
+              <h6><span>Django</span> Projects</h6>
             </div>
             <div className="projects">
-              <DjangoProjectsSlides />
             </div>
             
       </div>

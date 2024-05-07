@@ -37,6 +37,7 @@ body::-webkit-scrollbar
     border-radius: 10px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    
 }
     
 
@@ -49,18 +50,24 @@ body::-webkit-scrollbar
     background: radial-gradient(circle, rgba(237,105,49,1) -80%, rgba(237,105,49,1) 12%, rgba(245,245,245,1) 100%);
     display: none;
     text-align: center;
-    padding-top: 33%;
+    padding-top: 27%;
     color: #fff;
     font-size: 18px;
     border-radius: inherit;
-    font-weight: 800;
+    font-weight: 900;
    
 }
 
 .projects-each:hover .overlay-projects-each{
     display: block;
-    text-decoration: underline;
     opacity: 1;
+}
+
+
+
+.overlay-projects-each button{
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .overlay-projects-each button:hover{
@@ -78,20 +85,13 @@ body::-webkit-scrollbar
 
 
 .projects-each-image img{
-    transition: transform .6s ease-in-out all; 
     width: 100%; 
     height: 100%;
     border-radius: inherit;
     object-fit:cover;
 }
 
-.projects-each-image:hover img{
-    transform: scale(1.1);
-}
 
-/* .projects-each-image:hover::after {
-    opacity: 0.2;
-} */
 /* .modal{
     @apply w-full backdrop-blur-sm backdrop-opacity-90 overflow-x-hidden 
    
@@ -212,8 +212,7 @@ body::-webkit-scrollbar
     align-items: center;
     /* border: 1px solid orange; */
     padding: 0;
-    /* pointer-events: none; */
-    /* pointer-events: none; */
+ 
 
 }
 
@@ -237,6 +236,7 @@ body::-webkit-scrollbar
     font-size: 14px;
     text-align: justify;
     margin: 10px 0px;
+    
 }
 
 .left-modal h3{

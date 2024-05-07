@@ -36,6 +36,7 @@ function Modal(props) {
     <>
 
       <div className="overlay-projects-each">
+        <h1>{props.title}</h1>
         <button onClick={toggleModal} className="btn-modal">
           View details
         </button>   

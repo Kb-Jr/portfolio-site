@@ -17,6 +17,63 @@ import {default as dashboard_9} from './assets/react/dashboard/dashboard_9.png'
 import {default as dashboard_10} from './assets/react/dashboard/dashboard_10.png'
 import {default as dashboard_11} from './assets/react/dashboard/dashboard_11.png'
 import {default as dashboard_12} from './assets/react/dashboard/dashboard_12.png'
+import {default as bookmarker_thumb_} from './assets/javascript/bookmarker/bookmarker_thumb_.png'
+import {default as bookmarker_1} from './assets/javascript/bookmarker/bookmaker_1.png'
+import {default as bookmarker_2} from './assets/javascript/bookmarker/bookmaker_2.png'
+import {default as bookmarker_3} from './assets/javascript/bookmarker/bookmaker_3.png'
+import {default as bookmarker_4} from './assets/javascript/bookmarker/bookmaker_4.png'
+import {default as bookmarker_5} from './assets/javascript/bookmarker/bookmaker_5.png'
+import {default as bookmarker_6} from './assets/javascript/bookmarker/bookmaker_6.png'
+import {default as countdown_thumb} from './assets/javascript/countdown/countdown_thumb.png'
+import {default as countdown_1} from './assets/javascript/countdown/countdown_1.png'
+import {default as countdown_2} from './assets/javascript/countdown/countdown_2.png'
+import {default as countdown_3} from './assets/javascript/countdown/countdown_3.png'
+import {default as countdown_4} from './assets/javascript/countdown/countdown_4.png'
+import {default as countdown_5} from './assets/javascript/countdown/countdown_5.png'
+import {default as infinity_thumb} from './assets/javascript/infinity_quotes/infinity_thumb.png'
+import {default as infinity_1} from './assets/javascript/infinity_quotes/infinity_1.png'
+import {default as infinity_2} from './assets/javascript/infinity_quotes/infinity_2.png'
+import {default as infinity_3} from './assets/javascript/infinity_quotes/infinity_3.png'
+import {default as infinity_4} from './assets/javascript/infinity_quotes/infinity_4.png'
+import {default as infinity_5} from './assets/javascript/infinity_quotes/infinity_5.png'
+import {default as light_dark_thumb} from './assets/javascript/light_dark_mode/light_dark_thumb.png'
+import {default as light_dark_1} from './assets/javascript/light_dark_mode/light_dark_1.png'
+import {default as light_dark_2} from './assets/javascript/light_dark_mode/light_dark_2.png'
+import {default as light_dark_3} from './assets/javascript/light_dark_mode/light_dark_3.png'
+import {default as light_dark_4} from './assets/javascript/light_dark_mode/light_dark_4.png'
+import {default as light_dark_5} from './assets/javascript/light_dark_mode/light_dark_5.png'
+import {default as light_dark_6} from './assets/javascript/light_dark_mode/light_dark_6.png'
+import {default as light_dark_7} from './assets/javascript/light_dark_mode/light_dark_7.png'
+import {default as light_dark_8} from './assets/javascript/light_dark_mode/light_dark_8.png'
+import {default as light_dark_9} from './assets/javascript/light_dark_mode/light_dark_9.png'
+import {default as light_dark_10} from './assets/javascript/light_dark_mode/light_dark_10.png'
+import {default as light_dark_11} from './assets/javascript/light_dark_mode/light_dark_11.png'
+import {default as joke_teller_thumb} from './assets/javascript/joke_teller/joke_teller_thumb.png'
+import {default as joke_teller_1} from './assets/javascript/joke_teller/joke_teller_1.png'
+import {default as joke_teller_2} from './assets/javascript/joke_teller/joke_teller_2.png'
+import {default as joke_teller_3} from './assets/javascript/joke_teller/joke_teller_3.png'
+import {default as joke_teller_4} from './assets/javascript/joke_teller/joke_teller_4.png'
+import {default as joke_teller_5} from './assets/javascript/joke_teller/joke_teller_5.png'
+import {default as joke_teller_6} from './assets/javascript/joke_teller/joke_teller_6.png'
+import {default as music_player_thumb} from './assets/javascript/music_player/music_player_thumb.png'
+import {default as music_player_1} from './assets/javascript/music_player/music_player_1.png'
+import {default as music_player_2} from './assets/javascript/music_player/music_player_2.png'
+import {default as music_player_3} from './assets/javascript/music_player/music_player_3.png'
+import {default as music_player_4} from './assets/javascript/music_player/music_player_4.png'
+import {default as music_player_5} from './assets/javascript/music_player/music_player_5.png'
+import {default as music_player_6} from './assets/javascript/music_player/music_player_6.png'
+import {default as video_player_thumb} from './assets/javascript/video_player/video_player_thumb.png'
+import {default as video_player_1} from './assets/javascript/video_player/video_player_1.png'
+import {default as video_player_2} from './assets/javascript/video_player/video_player_2.png'
+import {default as video_player_3} from './assets/javascript/video_player/video_player_3.png'
+import {default as video_player_4} from './assets/javascript/video_player/video_player_4.png'
+import {default as video_player_5} from './assets/javascript/video_player/video_player_5.png'
+import {default as video_player_6} from './assets/javascript/video_player/video_player_6.png'
+import {default as video_player_7} from './assets/javascript/video_player/video_player_7.png'
+import {default as video_player_8} from './assets/javascript/video_player/video_player_8.png'
+
+
+
 
 
 export const topNavLinks = [
@@ -109,7 +166,7 @@ export const reactProjects = [
         title:'Dashboard',
         Description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi.',
         utilized: 'Javascript, React, Tailwind, CSS, Syncfusion.',
-        pro_images: [dashboard_1,dashboard_2,dashboard_3,dashboard_4,dashboard_5, dashboard_6, dashboard_7, dashboard_8, dashboard_9, dashboard_10,dashboard_11, dashboard_12],
+        pro_images: [dashboard_1, dashboard_2, dashboard_3, dashboard_4, dashboard_5, dashboard_6, dashboard_7, dashboard_8, dashboard_9, dashboard_10, dashboard_11, dashboard_12],
         github_link:'github.com',
         live_link:'http.com',
     },
@@ -155,112 +212,192 @@ export const reactProjects = [
 
 export const javascriptProjects = [
     {
-        image:'',
-        title:'33',
-        Description:''
+        image:bookmarker_thumb_,
+        title:'Bookmarker',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [bookmarker_1, bookmarker_2, bookmarker_3, bookmarker_4, bookmarker_5, bookmarker_6],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:countdown_thumb,
+        title:'Countdown',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [countdown_1, countdown_2, countdown_3, countdown_4, countdown_5],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:infinity_thumb,
+        title:'Infinity Quotes',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [infinity_1, infinity_2, infinity_3, infinity_4, infinity_5],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:light_dark_thumb,
+        title:'Light and Dark Mode',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [light_dark_1, light_dark_2, light_dark_3, light_dark_4, light_dark_5, light_dark_6, light_dark_7, light_dark_8, light_dark_9, light_dark_10, light_dark_11],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:joke_teller_thumb,
+        title:'Joke Teller',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [joke_teller_1, joke_teller_2, joke_teller_3, joke_teller_4, joke_teller_5, joke_teller_6],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:music_player_thumb,
+        title:'Music Player',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [music_player_1, music_player_2, music_player_3, music_player_4, music_player_5, music_player_6],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:video_player_thumb,
+        title:'Video Player',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [video_player_1, video_player_2, video_player_3, video_player_4, video_player_5, video_player_6, video_player_7, video_player_8],
+        github_link:'',
+        live_link:'',
     },
 ]
 export const djangoProjects = [
     {
-        image:'',
-        title:'22',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
 ]
 export const frontendMentorProjects = [
     {
-        image:'',
-        title:'44',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
    
 ]
 
 export const landingPagesProjects = [
     {
-        image:'',
-        title:'55',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
     {
-        image:'',
-        title:'',
-        Description:''
+        image:dashboard_prj2,
+        title:'14',
+        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        utilized: 'JS',
+        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        github_link:'',
+        live_link:'',
     },
 ]
 

@@ -71,6 +71,45 @@ import {default as video_player_5} from './assets/javascript/video_player/video_
 import {default as video_player_6} from './assets/javascript/video_player/video_player_6.png'
 import {default as video_player_7} from './assets/javascript/video_player/video_player_7.png'
 import {default as video_player_8} from './assets/javascript/video_player/video_player_8.png'
+import {default as banking_app_thumb} from './assets/static and landing/banking_app/banking_app_thumb.png'
+import {default as banking_app_1} from './assets/static and landing/banking_app/banking_app_1.png'
+import {default as banking_app_2} from './assets/static and landing/banking_app/banking_app_2.png'
+import {default as banking_app_3} from './assets/static and landing/banking_app/banking_app_3.png'
+import {default as funfilled_thumb} from './assets/static and landing/funfilled/funfilled_thumb.png'
+import {default as funfilled_1} from './assets/static and landing/funfilled/funfilled_1.png'
+import {default as funfilled_2} from './assets/static and landing/funfilled/funfilled_2.png'
+import {default as funfilled_3} from './assets/static and landing/funfilled/funfilled_3.png'
+import {default as funfilled_4} from './assets/static and landing/funfilled/funfilled_4.png'
+import {default as funfilled_5} from './assets/static and landing/funfilled/funfilled_5.png'
+import {default as funfilled_6} from './assets/static and landing/funfilled/funfilled_6.png'
+import {default as motherbird_thumb} from './assets/static and landing/motherbird/motherbird_thumb.png'
+import {default as motherbird_1} from './assets/static and landing/motherbird/motherbird_1.png'
+import {default as motherbird_2} from './assets/static and landing/motherbird/motherbird_2.png'
+import {default as motherbird_3} from './assets/static and landing/motherbird/motherbird_3.png'
+import {default as motherbird_4} from './assets/static and landing/motherbird/motherbird_4.png'
+import {default as motherbird_5} from './assets/static and landing/motherbird/motherbird_5.png'
+import {default as motherbird_6} from './assets/static and landing/motherbird/motherbird_6.png'
+import {default as motherbird_7} from './assets/static and landing/motherbird/motherbird_7.png'
+import {default as motherbird_8} from './assets/static and landing/motherbird/motherbird_8.png'
+import {default as qisnah_thumb} from './assets/static and landing/qisnah/qisnah_thumb.png'
+import {default as qisnah_3} from './assets/static and landing/qisnah/qisnah_3.jpg'
+import {default as qisnah_4} from './assets/static and landing/qisnah/qisnah_4.jpg'
+import {default as qisnah_5} from './assets/static and landing/qisnah/qisnah_5.jpg'
+import {default as qisnah_6} from './assets/static and landing/qisnah/qisnah_6.jpg'
+import {default as qisnah_7} from './assets/static and landing/qisnah/qisnah_7.jpg'
+import {default as qisnah_8} from './assets/static and landing/qisnah/qisnah_8.jpg'
+import {default as qisnah_9} from './assets/static and landing/qisnah/qisnah_9.jpg'
+import {default as qisnah_10} from './assets/static and landing/qisnah/qisnah_10.jpg'
+import {default as qisnah_11} from './assets/static and landing/qisnah/qisnah_11.jpg'
+import {default as qisnah_12} from './assets/static and landing/qisnah/qisnah_12.jpg'
+import {default as qisnah_13} from './assets/static and landing/qisnah/qisnah_13.jpg'
+import {default as news_homepage_thumb} from './assets/static and landing/news_homepage/news_homepage_thumb.png'
+import {default as news_homepage_1} from './assets/static and landing/news_homepage/news_homepage_1.jpg'
+import {default as news_homepage_2} from './assets/static and landing/news_homepage/news_homepage_2.jpg'
+import {default as news_homepage_3} from './assets/static and landing/news_homepage/news_homepage_3.jpg'
+import {default as news_homepage_4} from './assets/static and landing/news_homepage/news_homepage_4.jpg'
+import {default as news_homepage_5} from './assets/static and landing/news_homepage/news_homepage_5.jpg'
+import {default as news_homepage_6} from './assets/static and landing/news_homepage/news_homepage_6.jpg'
 
 
 
@@ -145,17 +184,12 @@ export const projectsData = [
         Description:'This section contains details of projects worked on when I enrolled in Harvards CS50W course. The Projects were executed using the Django framework.',
         urlTo:'/projects/django-projects'
     },
-    {
-        title:'Frontend Mentor Projects',
-        image:Frontend_mentor_img,
-        Description:'This section contains details of projects I have worked on as Challenges on the frontend mentor platform.',
-        urlTo:'/projects/frontendmentor-projects'
-    },
+ 
 
     {
-        title:'Landing pages',
+        title:'Landing pages & Static Components',
         image:HtmlxCss_img,
-        Description:'This section contains Web pages built using purely HTML and CSS.',
+        Description:'This section contains Web pages and static components built using purely HTML and CSS.',
         urlTo:'/projects/landingpages'
     }
 ]
@@ -322,82 +356,54 @@ export const djangoProjects = [
         live_link:'',
     },
 ]
-export const frontendMentorProjects = [
-    {
-        image:dashboard_prj2,
-        title:'14',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
-        utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-        github_link:'',
-        live_link:'',
-    },
-    {
-        image:dashboard_prj2,
-        title:'14',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
-        utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-        github_link:'',
-        live_link:'',
-    },
-   
-]
+
 
 export const landingPagesProjects = [
     {
-        image:dashboard_prj2,
-        title:'14',
+        image:banking_app_thumb,
+        title:'Banking App Dashbooard',
         Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
         utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        pro_images: [banking_app_1, banking_app_2, banking_app_3],
         github_link:'',
         live_link:'',
     },
     {
-        image:dashboard_prj2,
-        title:'14',
+        image:funfilled_thumb,
+        title:'Funfilled Site',
         Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
         utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        pro_images: [funfilled_1, funfilled_2, funfilled_3, funfilled_4, funfilled_5, funfilled_6],
         github_link:'',
         live_link:'',
     },
     {
-        image:dashboard_prj2,
-        title:'14',
+        image:motherbird_thumb,
+        title:'MotherBird Hotel Site',
         Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
         utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        pro_images: [motherbird_1, motherbird_2, motherbird_3, motherbird_4, motherbird_5, motherbird_6, motherbird_7, motherbird_8],
         github_link:'',
         live_link:'',
     },
     {
-        image:dashboard_prj2,
-        title:'14',
+        image:qisnah_thumb,
+        title:'Qisnah Restaurant',
         Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
         utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        pro_images: [qisnah_3, qisnah_4, qisnah_5, qisnah_6, qisnah_7, qisnah_8, qisnah_9, qisnah_10, qisnah_11, qisnah_12, qisnah_13],
         github_link:'',
         live_link:'',
     },
     {
-        image:dashboard_prj2,
-        title:'14',
+        image:news_homepage_thumb,
+        title:'News Homepage',
         Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
         utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+        pro_images: [news_homepage_1, news_homepage_2, news_homepage_3, news_homepage_4, news_homepage_5, news_homepage_6],
         github_link:'',
         live_link:'',
     },
-    {
-        image:dashboard_prj2,
-        title:'14',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
-        utilized: 'JS',
-        pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-        github_link:'',
-        live_link:'',
-    },
+ 
 ]
 

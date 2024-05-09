@@ -10,7 +10,7 @@ const LandingPages = () => {
     <div className='sub-projects-container'>
       <div className="projects-arrow">
         <div className="arrow">
-          <button onClick={() => navigate('/projects/frontendmentor-projects')}>
+          <button onClick={() => navigate('/projects/django-projects')}>
             <FontAwesomeIcon icon="fa-solid fa-arrow-left" className='arrow-icon' />
           </button>
         </div>
@@ -18,7 +18,7 @@ const LandingPages = () => {
 
       <div className="projects-body">
         <div className="projects-header-text">
-          <h6><span>Landing Pages</span></h6>
+          <h6><span>Landing Pages & Static Components</span></h6>
         </div>
         <div className="projects">
           {landingPagesProjects.map((item) => {

@@ -45,7 +45,7 @@ const DjangoProjects = () => {
 
       <div className="projects-arrow">
         <div className="arrow">
-          <button onClick={() => navigate('/projects/frontendmentor-projects')}>
+          <button onClick={() => navigate('/projects/landingpages')}>
             <FontAwesomeIcon icon="fa-solid fa-arrow-right" className='arrow-icon' />
           </button>
         </div>

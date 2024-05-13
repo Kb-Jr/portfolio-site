@@ -26,6 +26,7 @@
     width: 56%;
     height: 95%;
     /* border: 1px solid blue; */
+    color: var(--on-background);
 }
 
 .home-image {
@@ -56,10 +57,10 @@
 
     color: var(--background);
     text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+        -1px -1px 0 var(--on-background),
+        1px -1px 0 var(--on-background),
+        -1px 1px 0 var(--on-background),
+        1px 1px 0 var(--on-background);
     font-size: 140px;
     line-height: 140px;
     font-family: lobster;
@@ -83,6 +84,7 @@
 .home-text p {
     padding-left: 10px;
     text-align: justify;
+    color: var(--on-background);
 }
 
 h5 {
@@ -90,6 +92,7 @@ h5 {
     font-weight: 600;
     margin-top: 15px;
     padding-left: 10px;
+    color: var(--on-background);
 }
 
 .logos-container {

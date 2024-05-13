@@ -9,24 +9,23 @@ import { Home, Layout, Projects, Certifications, Contact, ReactProjects, Javascr
 
 function App() {
 
+
   return (
-    
     <BrowserRouter>
-    
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index path='/' element={<Home/>} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/certifications' element={<Certifications />} />
-          <Route path='/contact-me' element={<Contact />} />
-          <Route path='/projects/react-projects' element={< ReactProjects />} /> 
-          <Route path='/projects/javascript-projects' element={< JavascriptProjects />}/>
-          <Route path='/projects/django-projects' element={< DjangoProjects />}/>
-          <Route path='/projects/landingpages' element={< LandingPages />}/>
-        </Route>
-        
-      </Routes>
-    </BrowserRouter>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route index path='/' element={<Home/>} />
+              <Route path='/projects' element={<Projects />} />
+              <Route path='/certifications' element={<Certifications />} />
+              <Route path='/contact-me' element={<Contact />} />
+              <Route path='/projects/react-projects' element={< ReactProjects />} /> 
+              <Route path='/projects/javascript-projects' element={< JavascriptProjects />}/>
+              <Route path='/projects/django-projects' element={< DjangoProjects />}/>
+              <Route path='/projects/landingpages' element={< LandingPages />}/>
+            </Route>
+            
+          </Routes>
+      </BrowserRouter>
   )
 }
 

@@ -1,18 +1,25 @@
 import React from 'react'
+import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Outlet } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import { topNavLinks, sideNavLinks } from '../data'
+import { Toggle } from '..'
+import useLocalStorage from 'use-local-storage'
+
 
 
 const Layout = () => {
     const activeLink ='nav-icon-active' ;
     const normalLink = 'nav-icon';
+    const preference = window.matchMedia("(prefers-color-scheme:dark)").matches;
+    const [isdark , setisDark] = useLocalStorage('isdark', preference);
 
   return (
-    <div className='layout-container'>
+    <div className='layout-container' data-theme={isdark ? 'dark' : 'light'}>
       <div className="top-bar"></div>
         <div className="top-nav">
+          <Toggle isChecked={isdark} handleChange={() => setisDark(!isdark)}/>
             <ul>
                 {topNavLinks.map((item) => {
                     return(

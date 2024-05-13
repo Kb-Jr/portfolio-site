@@ -5,13 +5,24 @@
   --on-background: #282C35;
   --secondary:#Ed6931;
   --on-secondary:#fff;
+  --toggle-bg:#f19f7c;
+  --toggle-fg: #Ed6931;
 }
+
+[data-theme="dark"] {
+  --background: #282C35;
+  --on-background: #F5F5F5;
+  --secondary:#Ed6931;
+  --on-secondary:#fff;
+  --toggle-bg:#283452;
+  --toggle-fg:#00a6ff;
+}
+
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
   font-family: Raleway, sans-serif;
  
 }
@@ -26,6 +37,7 @@
   transform: scaleX(-1);
 } */
 
+
 .layout-container{
   height: 100vh;
   width: 100vw;
@@ -33,6 +45,8 @@
   /* border: 1px solid blue; */
   overflow: hidden;
   background-color: var(--background);
+  transition: background-color .2s ease-in-out;
+
 }
 
 .top-nav {
@@ -46,7 +60,7 @@
 
 .top-nav ul {
   /* border: 0.5px solid var(--on-background); */
-  width: 65%;
+  width: 57%;
   padding: 0px 10px;
   display: flex;
   flex-direction: row;
@@ -208,7 +222,7 @@
 .swiper-slide-main {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: var(--background);
 
   /* Center slide text vertically */
   display: flex;
@@ -225,6 +239,8 @@
   transition: transform .3s ease-in;
   position: relative;
   z-index: -1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+
   
 }
 

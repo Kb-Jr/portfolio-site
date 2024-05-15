@@ -26,6 +26,8 @@ const Layout = () => {
                         <button key={crypto.randomUUID()} className='nav-icon' onClick={
                           () => window.open(`${item.url}`, '_blank', 'noopener')
                       }><li><FontAwesomeIcon icon={item.icon} /></li></button>
+                   
+                        
                     )
                 })}
   
@@ -36,9 +38,11 @@ const Layout = () => {
             <ul>
             {sideNavLinks.map((item) => {
                     return(
-                        <NavLink key={crypto.randomUUID()} to={`/${item.name}`} className={({ isActive }) =>
-                        isActive ? activeLink : normalLink
-                      }><li><FontAwesomeIcon icon={item.icon} /></li></NavLink>
+                      
+                          <NavLink key={crypto.randomUUID()} to={`/${item.name}`} className={({ isActive }) =>
+                          isActive ? activeLink : normalLink
+                        }><li><FontAwesomeIcon icon={item.icon} /></li></NavLink>
+                      
                     )
                 })}
             </ul>

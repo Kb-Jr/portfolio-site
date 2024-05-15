@@ -152,15 +152,15 @@ export const sideNavLinks = [
         icon:'fa-solid fa-house',
     },
     {
-        name:'projects',
+        name:'Projects',
         icon:'fa-solid fa-diagram-project',
     },
     {
-        name:'certifications',
+        name:'Certifications',
         icon:'fa-solid fa-certificate',
     },
     {
-        name:'contact-me',
+        name:'Contact',
         icon:'fa-solid fa-message',
     },
 ]

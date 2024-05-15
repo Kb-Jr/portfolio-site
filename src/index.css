@@ -247,3 +247,7 @@
 /* .swiper-slide:hover{
   transform: scale(102%);
 } */
+
+.tooltip .tooltip-top{
+  @apply bg-white
+}

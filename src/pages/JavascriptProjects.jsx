@@ -1,13 +1,22 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import { javascriptProjects } from '../data'
+import { javascriptProjects, routeVariants } from '../data'
 import { Modal } from '..'
+import { motion } from 'framer-motion'
+import '../styles/subprojects.css'
+
 
 const JavascriptProjects = () => {
   const navigate = useNavigate();
   return (
-    <div className='sub-projects-container'>
+    <motion.div 
+    variants={routeVariants}
+    initial='initial'
+    animate='final'
+    transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
+    className='sub-projects-container'
+    >
       <div className="projects-arrow">
         <div className="arrow">
           <button onClick={() => navigate('/projects/react-projects')}>
@@ -49,7 +58,7 @@ const JavascriptProjects = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

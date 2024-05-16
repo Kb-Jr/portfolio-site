@@ -3,13 +3,22 @@ import { LandingHero } from '..'
 import { c, css, django, git, html, javascript, python, react, sql, tailwind } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { routeVariants } from '../data'
 
 const Home = () => {
   const logos = [c, css, django, git, html, javascript, python, react, sql, tailwind]
   const navigate = useNavigate();
 
   return (
-    <div className="home-container">
+    <motion.div 
+      variants={routeVariants}
+      initial='initial'
+      animate='final'
+      transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
+      className="home-container"
+    >
+
       <div className="home-text">
         <h1>Hi!</h1>
         <div>I'm <span>Kabir</span></div>
@@ -39,7 +48,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
 
   )
 }

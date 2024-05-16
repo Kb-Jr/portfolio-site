@@ -27,16 +27,7 @@
  
 }
 
-/* .home img{
-  height: 100vh;
-  width: 40vw;
-  background-color: white;
-  color: var(--on-background);
-  font-size: 30px;
-  font-weight: 900;
-  transform: scaleX(-1);
-} */
-
+/* Layout styling */
 
 .layout-container{
   height: 100vh;
@@ -48,6 +39,8 @@
   transition: background-color .2s ease-in-out;
 
 }
+
+/* top navigation styling */
 
 .top-nav {
   /* border: 1px solid red; */
@@ -92,6 +85,7 @@
   color: var(--secondary);
 }
 
+/* top and bottom bar styling */
 .top-bar{
   /* border: 1px solid red; */
   position: absolute;
@@ -113,6 +107,7 @@
 
 }
 
+/* side navigation styling */
 
 .side-nav{
   height: 50%;
@@ -147,6 +142,7 @@
 }
 
 
+/* arrow styles */
 
 .arrow{
   height: 100%;
@@ -182,12 +178,7 @@
 } 
 
 
-/* .projects{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-} */
-
+/* Slideshow styles */
 
 .mySwiper-main {
   width: 100%;
@@ -223,8 +214,6 @@
   text-align: center;
   font-size: 18px;
   background: var(--background);
-
-  /* Center slide text vertically */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,9 +222,6 @@
   height: 88%;
   border-radius: 15px;
   cursor: pointer;
-  /* box-shadow: 6px 6px 20px -6px rgba(13,11,11,0.75);
--webkit-box-shadow: 6px 6px 20px -6px rgba(13,11,11,0.75);
--moz-box-shadow: 6px 6px 20px -6px rgba(13,11,11,0.75); */
   transition: transform .3s ease-in;
   position: relative;
   z-index: -1;
@@ -244,10 +230,23 @@
   
 }
 
-/* .swiper-slide:hover{
-  transform: scale(102%);
-} */
 
-.tooltip .tooltip-top{
-  @apply bg-white
+.slide-in{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: right;
+}
+
+.slide-out{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: left;
 }

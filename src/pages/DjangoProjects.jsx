@@ -1,13 +1,22 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import { djangoProjects } from '../data'
+import { djangoProjects, routeVariants } from '../data'
+import { motion } from 'framer-motion'
 import { Modal } from '..'
+import '../styles/subprojects.css'
+
 
 const DjangoProjects = () => {
   const navigate = useNavigate();
   return (
-    <div className='sub-projects-container'>
+    <motion.div 
+      variants={routeVariants}
+      initial='initial'
+      animate='final'
+      transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
+      className='sub-projects-container'
+      >
       <div className="projects-arrow">
         <div className="arrow">
           <button onClick={() => navigate('/projects/javascript-projects')}>
@@ -50,7 +59,7 @@ const DjangoProjects = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -7,47 +7,46 @@
     --on-secondary: #fff;
 }
 
-body::-webkit-scrollbar 
-{
+body::-webkit-scrollbar {
     display: none;
 }
 
-.sub-projects-container{
-     /* border: 1px solid gold; */
-     height: 90%;
-     width: 92%;
-     position: absolute;
-     top: 8%;
-     left: 7%;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-around;
+/* individual project types layout styling */
+
+.sub-projects-container {
+    /* border: 1px solid gold; */
+    height: 90%;
+    width: 92%;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.projects-each{
+/* individual project styling */
+
+.projects-each {
     height: 40%;
     width: 24%;
     /* border: 1px solid green; */
     cursor: pointer;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; */
     border-radius: 10px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
-    
-}
-    
 
-.overlay-projects-each{
+}
+
+
+.overlay-projects-each {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(237,105,49,1) -80%, rgba(237,105,49,1) 12%, rgba(245,245,245,1) 100%);
+    background: radial-gradient(circle, rgba(237, 105, 49, 1) -80%, rgba(237, 105, 49, 1) 12%, rgba(245, 245, 245, 1) 100%);
     display: none;
     text-align: center;
     padding-top: 27%;
@@ -55,52 +54,42 @@ body::-webkit-scrollbar
     font-size: 18px;
     border-radius: inherit;
     font-weight: 900;
-   
+
 }
 
-.projects-each:hover .overlay-projects-each{
+.projects-each:hover .overlay-projects-each {
     display: block;
     opacity: 1;
 }
 
 
 
-.overlay-projects-each button{
+.overlay-projects-each button {
     font-weight: 400;
     font-size: 14px;
 }
 
-.overlay-projects-each button:hover{
+.overlay-projects-each button:hover {
     text-decoration: underline;
 }
 
-.projects-each-image{
-    /* position: relative;
-    overflow: hidden; */
-   height: 100%;
-   width: 100%;
-   border-radius: inherit;
+.projects-each-image {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
     /* border: 1px solid red; */
 }
 
 
-.projects-each-image img{
-    width: 100%; 
+.projects-each-image img {
+    width: 100%;
     height: 100%;
     border-radius: inherit;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 
-/* .modal{
-    @apply w-full backdrop-blur-sm backdrop-opacity-90 overflow-x-hidden 
-   
-}
-
-.modal-box{
-    @apply max-w-screen-2xl h-full bg-inherit rounded-none shadow-none text-white p-0
-
-} */
+/* modal styling */
 
 .modal {
     width: 100%;
@@ -114,38 +103,21 @@ body::-webkit-scrollbar
     z-index: 1000;
     /* border: 2px solid gold; */
     background-color: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(1px); 
-    /* pointer-events: none; */
-    
-    
+    backdrop-filter: blur(1px);
+
+
 }
 
 .overlay {
     position: fixed;
     top: 0;
-    /* background: rgba(49,49,49,0.8);
-    background: inherit; */
     /* border: 2px solid red; */
     background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
-    
+
 }
 
-/* .modal, .overlay {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-    z-index: 1000;
-}
-
-.overlay {
-    background: rgba(49,49,49,0.8);
-} */
 
 .modal-content {
     height: 95%;
@@ -156,29 +128,27 @@ body::-webkit-scrollbar
     color: white;
     font-weight: 600;
     position: relative;
-    /* pointer-events: none; */
 
 }
 
 .close-modal {
- display:block;
- float: right;
-
- /* border: 1px solid gold; */
- height: 2.5rem;
- width: 2.7rem;
- font-size: 14px;
- border-radius: 9999px;
- background-color:#282C35;
- transition: all .2s ease-in;
- z-index: 200;
+    display: block;
+    float: right;
+    /* border: 1px solid gold; */
+    height: 2.5rem;
+    width: 2.7rem;
+    font-size: 14px;
+    border-radius: 9999px;
+    background-color: #282C35;
+    transition: all .2s ease-in;
+    z-index: 200;
 }
 
-.close-modal:hover{
+.close-modal:hover {
     filter: brightness(140%);
 }
 
-.modal-body{
+.modal-body {
     /* border: 1px solid blue; */
     height: 95%;
     width: 100%;
@@ -192,19 +162,17 @@ body::-webkit-scrollbar
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-    /* pointer-events: none; */
 
 }
 
-.modal-body-top{
+.modal-body-top {
     width: 100%;
     height: 8%;
     /* border: 1px solid gold; */
-    /* pointer-events: none; */
 
 }
 
-.modal-body-bottom{
+.modal-body-bottom {
     height: 92%;
     width: 100%;
     display: flex;
@@ -212,17 +180,17 @@ body::-webkit-scrollbar
     align-items: center;
     /* border: 1px solid orange; */
     padding: 0;
- 
+
 
 }
 
-.left-modal{
+.left-modal {
     width: 40%;
     height: 95%;
     /* border: 1px solid gold; */
 }
 
-.left-modal h1{
+.left-modal h1 {
     /* border: 1px solid blue; */
     font-size: 48px;
     margin-top: 0;
@@ -231,20 +199,20 @@ body::-webkit-scrollbar
     font-weight: 800;
 }
 
-.left-modal p{
+.left-modal p {
     font-weight: 500;
     font-size: 14px;
     text-align: justify;
     margin: 10px 0px;
-    
+
 }
 
-.left-modal h3{
+.left-modal h3 {
     font-weight: 700;
     font-size: 16px;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,14 +223,15 @@ body::-webkit-scrollbar
     margin-top: 30px;
 }
 
-.links>button:hover{
+.links>button:hover {
     color: var(--secondary);
 }
 
-.links-icon{
+.links-icon {
     margin-right: 10px;
 }
-.line{
+
+.line {
     width: 3px;
     height: 80%;
     background-color: #F5F5F5;
@@ -276,27 +245,23 @@ body::-webkit-scrollbar
 
 }
 
-
 body.active-modal {
     overflow-y: hidden;
 }
 
-.mySwiper-modal{
+/* slideshow in modal styling */
 
-        width: 100%;
-        height: 100%;
-        padding-top: 100px;
-        display: flex;
-        position: relative;
-        /* border: 1px solid green; */
-        /* z-index: 1000; */
-        
-      
-}  
+.mySwiper-modal {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    position: relative;
+    /* border: 1px solid green; */
 
+}
 
-
-.swiper-slide-modal{
+.swiper-slide-modal {
     background-position: center;
     background-size: cover;
     width: 310px;
@@ -304,8 +269,7 @@ body.active-modal {
     /* border: 2px solid red; */
 }
 
-
-.swiper-slide-modal img{
+.swiper-slide-modal img {
     display: block;
     width: 100%;
     height: 100%;

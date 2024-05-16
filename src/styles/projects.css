@@ -7,6 +7,8 @@
     --on-secondary: #fff;
 }
 
+/* Projects container styles */
+
 .projects-container{
      /* border: 1px solid red; */
      height: 90%;
@@ -68,7 +70,6 @@
     flex-wrap: wrap;
     
 }
-
 
 
 .project-image-container{

@@ -407,3 +407,15 @@ export const landingPagesProjects = [
  
 ]
 
+export const routeVariants = {
+    initial:{
+        x:'100vw'
+    },
+
+    final:{
+        x:'0vw'
+    },
+
+    
+}
+

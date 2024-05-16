@@ -5,7 +5,6 @@ import { Home, Projects, Certifications, Contact, ReactProjects, JavascriptProje
 
 const RoutesWithAnimation = () => {
     const location = useLocation();
-    console.log(location)
 
   return (
     <Routes location={location} key={location.key}>

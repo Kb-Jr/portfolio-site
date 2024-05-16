@@ -11,11 +11,7 @@ const ReactProjects = () => {
 
   return (
 
-    <motion.div 
-    variants={routeVariants}
-    initial='initial'
-    animate='final'
-    transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
+    <div 
     className='sub-projects-container'
     >
       <div className="projects-arrow">
@@ -37,14 +33,18 @@ const ReactProjects = () => {
             return(
               <>
               
-                <div className='projects-each' key={crypto.randomUUID()}> 
+                <motion.div 
+                  initial={{opacity:0}}
+                  animate={{opacity:1}}
+                  transition={{duration:1, delay:1, ease: [0.22, 1, 0.36, 1]}}
+                  className='projects-each' key={crypto.randomUUID()}> 
                   {/* <h1>{item.title}</h1> */}
                   <div className='projects-each-image'>
                       <img src={item.image} alt="" />
                   </div>
                   
                   <Modal title={item.title} images={item.pro_images} description={item.Description} used={item.utilized} github={item.github_link} live={item.live_link}/>
-                </div>
+                </motion.div>
 
                
               </>
@@ -61,7 +61,7 @@ const ReactProjects = () => {
           </button>
         </div>
       </div>
-    </motion.div>
+    </div>
   )
 }
 

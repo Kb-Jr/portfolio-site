@@ -19,7 +19,7 @@ const Layout = () => {
                     return(
                         <button key={crypto.randomUUID()} className='nav-icon' onClick={
                           () => window.open(`${item.url}`, '_blank', 'noopener')
-                      }><li><FontAwesomeIcon icon={item.icon} /></li></button>
+                      }><li><FontAwesomeIcon icon={item.icon}/></li></button>
                    
                         
                     )

@@ -3,7 +3,7 @@ import { LandingHero } from '..'
 import { c, css, django, git, html, javascript, python, react, sql, tailwind } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { delay, easeIn, motion } from 'framer-motion'
 import { routeVariants } from '../data'
 
 const Home = () => {
@@ -34,12 +34,38 @@ const Home = () => {
 
         </div>
 
-        <button id='resume'>Download my Resume</button>
+        <motion.button 
+        initial={{
+          opacity:0
+        }}
+        
+        animate={{
+          opacity:1
+        }}
+
+        transition={{
+          delay:2,
+          duration:1.2,
+          ease: 'linear'
+        }}
+        id='resume'>Download my Resume</motion.button>
 
       </div>
 
       <div className="home-image">
-        <img src={LandingHero} />
+        <motion.img src={LandingHero} 
+
+          
+          animate={{
+            y: [0, -7, 0],
+            
+          }}
+          transition={{
+            repeat:Infinity,
+            duration: 3,
+            ease: 'linear'
+          }}
+        />
       </div>
       <div className="home-arrow">
         <div className='arrow'>

@@ -3,7 +3,7 @@ import { LandingHero } from '..'
 import { c, css, django, git, html, javascript, python, react, sql, tailwind } from '..'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useNavigate } from 'react-router-dom'
-import { delay, easeIn, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { routeVariants } from '../data'
 
 const Home = () => {
@@ -11,11 +11,11 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <motion.div 
+    <motion.div
       variants={routeVariants}
       initial='initial'
       animate='final'
-      transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
+      transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
       className="home-container"
     >
 
@@ -33,35 +33,37 @@ const Home = () => {
           })}
 
         </div>
+        <a href="../assets/c.svg" download='c.svg'>
+        <motion.button
+          initial={{
+            opacity: 0
+          }}
 
-        <motion.button 
-        initial={{
-          opacity:0
-        }}
-        
-        animate={{
-          opacity:1
-        }}
+          animate={{
+            opacity: 1
+          }}
 
-        transition={{
-          delay:2,
-          duration:1.2,
-          ease: 'linear'
-        }}
-        id='resume'>Download my Resume</motion.button>
-
+          transition={{
+            delay: 2,
+            duration: 1.2,
+            ease: 'linear'
+          }}
+          id='resume'>
+          Download my Resume
+        </motion.button>
+        </a>
       </div>
 
       <div className="home-image">
-        <motion.img src={LandingHero} 
+        <motion.img src={LandingHero}
 
-          
+
           animate={{
             y: [0, -7, 0],
-            
+
           }}
           transition={{
-            repeat:Infinity,
+            repeat: Infinity,
             duration: 3,
             ease: 'linear'
           }}

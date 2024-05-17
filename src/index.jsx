@@ -1,5 +1,5 @@
 export {default as Home} from './pages/Home'
-export {default as LandingHero} from './assets/landing_hero_HQ.png'
+export {default as LandingHero} from './assets/landing_hero_LQ.png'
 export {default as c} from './assets/c.svg'
 export {default as css} from './assets/css.svg'
 export {default as django} from './assets/django.svg'

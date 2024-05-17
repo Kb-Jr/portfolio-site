@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --background: #F5F5F5;
+    --on-background: #282C35;
+    --secondary: #Ed6931;
+    --on-secondary: #fff;
+}
+
+.contact-container{
+    /* border: 1px solid red; */
+    height: 90%;
+    width: 92%;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-map{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form form{
+    /* border: 1px solid gold; */
+    height: 75%;
+    width: 95%;
+    color: var(--on-background);
+}
+.contact-form label{
+
+    display: block;
+    margin: 5px;
+    font-weight: 700;
+    
+}
+
+.contact-form input{
+    /* border: 1px solid var(--secondary); */
+    height: 45px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-form textarea {
+    width: 80%;
+    border-radius: 5px;
+    height: 200px;
+    border: none;
+}
+

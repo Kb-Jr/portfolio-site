@@ -7,6 +7,7 @@ import './styles/home.css'
 import './styles/projects.css'
 import './styles/subprojects.css'
 import './styles/contact.css'
+import './styles/certifications.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

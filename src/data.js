@@ -118,7 +118,7 @@ import {default as news_homepage_6} from './assets/static and landing/news_homep
 export const topNavLinks = [
     {
         name:'Twitter',
-        icon:'fa-brands fa-twitter', 
+        icon:'fa-brands fa-x-twitter', 
         url:'https://twitter.com/Joker__XL'
     },
     {

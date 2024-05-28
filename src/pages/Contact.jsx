@@ -51,15 +51,15 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <div>
             <label htmlFor='subject'>Subject:</label>
-            <input type="text" name="subject" required placeholder='Subject'/>
+            <input type="text" name="subject" required placeholder='Subject' autoComplete='off'/>
           </div>
           <div>
             <label htmlFor='user_email'>Email:</label>
-            <input type="email" name="user_email" required placeholder='Your email' />
+            <input type="email" name="user_email" required placeholder='Your email' autoComplete='off'/>
           </div>
           <div>
             <label htmlFor='message'>Message:</label>
-            <textarea name="message" required placeholder='Your message'/>
+            <textarea name="message" required placeholder='Your message....' autoComplete='off'/>
           </div>
           <button type="submit">Send message</button>
         </form>

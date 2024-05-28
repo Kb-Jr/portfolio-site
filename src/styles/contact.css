@@ -99,8 +99,15 @@
     margin-bottom: 5px;
     outline: none;
     background-color: var(--on-input);
+    font-size: 14px;
 
 }
+
+input::placeholder,  textarea::placeholder{
+    font-size: 13px;
+    font-style: italic;
+}
+
 
 .contact-form textarea {
     width: 80%;
@@ -111,6 +118,8 @@
     outline: none;
     padding: 10px;
     background-color: var(--on-input);
+    font-size: 14px;
+
 
 }
 

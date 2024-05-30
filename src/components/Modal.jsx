@@ -76,7 +76,7 @@ function Modal(props) {
                   </div>
                   <div className="right-modal">
                     <Swiper
-                      effect={'coverflow'}
+                      effect={'coverflow' }
                       grabCursor={true}
                       centeredSlides={true}
                       slidesPerView={'auto'}

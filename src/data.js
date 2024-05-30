@@ -110,6 +110,10 @@ import {default as news_homepage_3} from './assets/static and landing/news_homep
 import {default as news_homepage_4} from './assets/static and landing/news_homepage/news_homepage_4.jpg'
 import {default as news_homepage_5} from './assets/static and landing/news_homepage/news_homepage_5.jpg'
 import {default as news_homepage_6} from './assets/static and landing/news_homepage/news_homepage_6.jpg'
+import {default as CS50x} from './assets/certifications/CS50x.jpg'
+import {default as CS50w} from './assets/certifications/CS50w.png'
+import {default as CS50w_thumb} from './assets/certifications/CS50w_thumb.png'
+import {default as CS50x_thumb} from './assets/certifications/CS50x_thumb.png'
 
 
 
@@ -419,3 +423,18 @@ export const routeVariants = {
     
 }
 
+
+export const certificationsdata = [
+    {
+        title: 'CS50x',
+        description:'',
+        thumbnail:CS50x_thumb,
+        image: CS50x,
+    },
+    {   
+        title: 'CS50w',
+        description:'',
+        thumbnail:CS50w_thumb,
+        image:CS50w,
+    },
+]

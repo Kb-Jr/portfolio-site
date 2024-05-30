@@ -44,7 +44,7 @@ const Home = () => {
           }}
 
           transition={{
-            delay: 2,
+            delay: 1.5,
             duration: 1.2,
             ease: 'linear'
           }}
@@ -65,7 +65,8 @@ const Home = () => {
           transition={{
             repeat: Infinity,
             duration: 3,
-            ease: 'linear'
+            ease: 'linear',
+            delay:1.5
           }}
         />
       </div>

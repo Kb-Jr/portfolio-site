@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #F5F5F5;
+    --on-background: #282C35;
+    --secondary: #Ed6931;
+    --on-secondary: #fff;
+}
+
+.error-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+    width: 98%;
+    align-items: center;
+    /* border: 1px solid green; */
+    padding-top: 85px;
+}
+
+
+.error-img{
+    height: 57%;
+    width: 35%;
+    /* border: 1px solid gold; */
+    margin-bottom: 40px;
+}
+
+.error-text p{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--on-background);
+}
+
+.error-text p span {
+    color: #Ed6931;
+}
+
+.error-text p span:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    text-decoration: underline;
+}

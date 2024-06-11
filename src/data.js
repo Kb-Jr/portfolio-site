@@ -252,7 +252,7 @@ export const javascriptProjects = [
     {
         image:bookmarker_thumb_,
         title:'Bookmarker',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'A single page app with functionalities like create bookmark, store bookmark to localstorage and delete bookmark. The basic approach for this project is to have a user input details in input fields of a form and submit. The clicking the submit button triggers a submit event. This saves the details input to the event. In this case, the input fields are for the Name and the URL. These values can be pulled and saved to local storage by using “localStorage.setItem” and the arguments should contain a key and the stringified version of the input details which were initially a javascript object. The Items saved in the local storage is then fetched using “localStorage.getItem” and used to build the bookmarks. A parsed version of the details is used to populate the built DOM elements. To delete a bookmark, the bookmarks array is looped over to find the object index that matches the index of the bookmark clicked. That particular object is then removed from the array using the splice method and returns a new array of objects without the clicked object',
         utilized: 'HTML, CSS, Javascript',
         pro_images: [bookmarker_1, bookmarker_2, bookmarker_3, bookmarker_4, bookmarker_5, bookmarker_6],
         github_link:'https://github.com/Kb-Jr/Bookmarker',
@@ -261,7 +261,7 @@ export const javascriptProjects = [
     {
         image:countdown_thumb,
         title:'Countdown',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'Create customizable countdowns with ease.',
         utilized: 'HTML, CSS, Javascript',
         pro_images: [countdown_1, countdown_2, countdown_3, countdown_4, countdown_5],
         github_link:'https://github.com/Kb-Jr/Countdown',
@@ -270,7 +270,7 @@ export const javascriptProjects = [
     {
         image:infinity_thumb,
         title:'Infinity Quotes',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'Populate infinite random quotes in a single page. A single web page to generate and display a Random quotes fetched from a quotes API. Individual quotes can be seen by scrolling on a device. Before scrolling to the end of the window, a new batch of 10 random quotes are added so the user can keep scrolling on the same page to access more quotes. Each individual quote has two buttons, Twitter and Whatsapp which can be used to share the quotes to either twitter or Whatsapp.',
         utilized: 'HTML, CSS, Javascript, Quotes API',
         pro_images: [infinity_1, infinity_2, infinity_3, infinity_4, infinity_5],
         github_link:'https://github.com/Kb-Jr/Infinity-quotes',
@@ -279,7 +279,7 @@ export const javascriptProjects = [
     {
         image:light_dark_thumb,
         title:'Light and Dark Mode',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'Toggle between light and dark mode. Change the appearance of the web page by clicking on a slider. The slider switches the appearance of the page from light to dark or dark to light.',
         utilized: 'HTML, CSS, Javascript',
         pro_images: [light_dark_1, light_dark_2, light_dark_3, light_dark_4, light_dark_5, light_dark_6, light_dark_7, light_dark_8, light_dark_9, light_dark_10, light_dark_11],
         github_link:'https://github.com/Kb-Jr/Light-Dark-Theme',
@@ -288,7 +288,7 @@ export const javascriptProjects = [
     {
         image:joke_teller_thumb,
         title:'Joke Teller',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'Tell a joke from the click of a button!. A single web page that tells a joke from the click of a button. Jokes are generated from a Jokes API and are told via a text to speech API.',
         utilized: 'HTML, CSS, Javascript, Jokes Api, text-to-speech API',
         pro_images: [joke_teller_1, joke_teller_2, joke_teller_3, joke_teller_4, joke_teller_5, joke_teller_6],
         github_link:'https://github.com/Kb-Jr/JOKE-TELLER',
@@ -297,7 +297,7 @@ export const javascriptProjects = [
     {
         image:music_player_thumb,
         title:'Music Player',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'A single page web music player. A single page music player built using HTML CSS and Javascript. Features include Play, pause, next, previous, shuffle, un-shuffle, Volume up, volume down, Progress bar and progress bar seeking.',
         utilized: 'HTML, CSS, Javascript',
         pro_images: [music_player_1, music_player_2, music_player_3, music_player_4, music_player_5, music_player_6],
         github_link:'https://github.com/Kb-Jr/Music-player',
@@ -306,7 +306,7 @@ export const javascriptProjects = [
     {
         image:video_player_thumb,
         title:'Video Player',
-        Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.',
+        Description: 'A custom video player built with HTML CSS and Javascript. Features include; Play, Pause, playback rate, volume toggle, duration, current time, fullscreen',
         utilized: 'HTML, CSS, Javascript',
         pro_images: [video_player_1, video_player_2, video_player_3, video_player_4, video_player_5, video_player_6, video_player_7, video_player_8],
         github_link:'https://github.com/Kb-Jr/Video-Player',

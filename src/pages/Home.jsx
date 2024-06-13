@@ -6,9 +6,19 @@ import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { routeVariants } from '../data'
 
+
 const Home = () => {
   const logos = [c, css, django, git, html, javascript, python, react, sql, tailwind]
   const navigate = useNavigate();
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Resume.docx'; // URL to the document
+    link.download = 'Resume.docx'; // Name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <motion.div
@@ -33,8 +43,8 @@ const Home = () => {
           })}
 
         </div>
-        <a href="../assets/c.svg" download='c.svg'>
-        <motion.button
+        
+        <motion.button onClick={handleDownload}
           initial={{
             opacity: 0
           }}
@@ -51,7 +61,7 @@ const Home = () => {
           id='resume'>
           Download my Resume
         </motion.button>
-        </a>
+       
       </div>
 
       <div className="home-image">

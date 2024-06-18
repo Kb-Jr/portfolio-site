@@ -32,14 +32,28 @@ const Home = () => {
       <div className="home-text">
         <h1>Hi!</h1>
         <div>I'm <span>Kabir</span></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita est, nisi iste fuga hic possimus ab tempora deleniti deserunt optio quisquam omnis quibusdam numquam dignissimos. Commodi veritatis cumque quasi?
-          Molestias error quisquam dolor quo. Voluptate in repellat harum, </p>
+        <p>I build functional, interactive, aethetically pleasant and scalable websites and web-apps. My skillset guarantees delivery of quality and standard products that meets the demands of individuals, businesses and brands on their quest to achieve an online presence. As a forever student and one who takes pride in my work, i am constantly adapting to new technology and improving my functional competencies to ensure my work is always state of the art. </p>
         <h5>I have experience in using the following;</h5>
 
         <div className="logos-container">
 
           {logos.map((item) => {
-            return (<img src={item} className='logo' alt="logo" key={crypto.randomUUID()} />)
+            return (<motion.img 
+              initial={{
+                opacity: 0
+              }}
+    
+              animate={{
+                opacity: 1
+              }}
+    
+              transition={{
+                delay: 0.7,
+                duration: 0.9,
+                ease: 'linear'
+              }}
+
+              src={item} className='logo' alt="logo" key={crypto.randomUUID()} />)
           })}
 
         </div>

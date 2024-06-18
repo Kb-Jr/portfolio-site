@@ -437,7 +437,7 @@ export const landingPagesProjects = [
     image: banking_app_thumb,
     title: "Banking App Dashbooard",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "This design was created using HTML and CSS. A combination of CSS grid and Flexbox(mostly CSS grid) was used for the arrangements of sections within the design. The design is responsive across 3 screen sizes.",
     utilized: "HTML, CSS, CSS Grid",
     pro_images: [banking_app_1, banking_app_2, banking_app_3],
     github_link: "https://github.com/Kb-Jr/Banking-App-Dashboard",
@@ -447,7 +447,7 @@ export const landingPagesProjects = [
     image: funfilled_thumb,
     title: "Funfilled Site",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "A landing page for a fictional hotel and resort brand. This landing page was built using HTML and CSS. For the Layout a combination of both CSS Grid and Flexbox was used. It provided a good opportunity to practice and master some CSS concepts. This effort was a collabrative one as the original Figma design was made by @AuntyShelle on twitter. The Landing page was made responsive across different screen sizes.",
     utilized: "HTML, CSS",
     pro_images: [
       funfilled_1,
@@ -464,7 +464,7 @@ export const landingPagesProjects = [
     image: motherbird_thumb,
     title: "MotherBird Hotel Site",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "A hotel website with different pages. This site is static and it's purely for design purposes.",
     utilized: "HTML, CSS",
     pro_images: [
       motherbird_1,
@@ -483,7 +483,7 @@ export const landingPagesProjects = [
     image: qisnah_thumb,
     title: "Qisnah Restaurant",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "A restaurant website. The website was built using HTML, CSS and Javascript and has different sections. The sections include an about section, menu section, photo gallery, testimonial and contact section. The photo gallery was created using CSS grid. A JavaScript animate on scroll library was used to animate elements on the page and JS was also used to trigger and toggle the sidebar on smaller screen sizes.",
     utilized: "HTML, CSS, Animate on scroll JS Library",
     pro_images: [
       qisnah_3,
@@ -505,7 +505,7 @@ export const landingPagesProjects = [
     image: news_homepage_thumb,
     title: "News Homepage",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "This is a solution for one of the challenges on the Frontend Mentor platform. This solution utilizes CSS grid for the layout and JavaScript to display the sidebar on smaller screens. Other development optimizing factors such as accessibility was also considered.",
     utilized: "HTML, CSS, CSS Grid",
     pro_images: [
       news_homepage_1,

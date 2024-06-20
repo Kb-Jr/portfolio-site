@@ -32,21 +32,20 @@ const Home = () => {
       <div className="home-text">
         <h1>Hi!</h1>
         <div>I'm <span>Kabir</span></div>
-        <p>I build functional, interactive, aethetically pleasant and scalable websites and web-apps. My skillset guarantees delivery of quality and standard products that meets the demands of individuals, businesses and brands on their quest to achieve an online presence. As a forever student and one who takes pride in my work, i am constantly adapting to new technology and improving my functional competencies to ensure my work is always state of the art. </p>
-        <h5>I have experience in using the following;</h5>
+        <p>I build functional, interactive, aethetically pleasant and scalable websites and web-apps. My skillset guarantees delivery of quality and standard products that meets the demands of individuals, businesses and brands on their quest to achieve an online presence. As a forever student and one who takes pride in my work, i am constantly adapting to new technology and improving my functional competencies to ensure my work is always state of the art. 
+        </p>
+
+        <h5>I have experience in using the following:</h5>
 
         <div className="logos-container">
-
           {logos.map((item) => {
-            return (<motion.img 
+            return (<motion.img
               initial={{
                 opacity: 0
               }}
-    
               animate={{
                 opacity: 1
               }}
-    
               transition={{
                 delay: 0.7,
                 duration: 0.9,
@@ -57,16 +56,14 @@ const Home = () => {
           })}
 
         </div>
-        
+
         <motion.button onClick={handleDownload}
           initial={{
             opacity: 0
           }}
-
           animate={{
             opacity: 1
           }}
-
           transition={{
             delay: 1.5,
             duration: 1.2,
@@ -75,13 +72,11 @@ const Home = () => {
           id='resume'>
           Download my Resume
         </motion.button>
-       
+
       </div>
 
       <div className="home-image">
         <motion.img src={LandingHero}
-
-
           animate={{
             y: [0, -7, 0],
 
@@ -90,7 +85,7 @@ const Home = () => {
             repeat: Infinity,
             duration: 3,
             ease: 'linear',
-            delay:1.5
+            delay: 1.5
           }}
         />
       </div>

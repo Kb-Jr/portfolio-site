@@ -110,6 +110,21 @@ import { default as news_homepage_3 } from "./assets/static and landing/news_hom
 import { default as news_homepage_4 } from "./assets/static and landing/news_homepage/news_homepage_4.jpg";
 import { default as news_homepage_5 } from "./assets/static and landing/news_homepage/news_homepage_5.jpg";
 import { default as news_homepage_6 } from "./assets/static and landing/news_homepage/news_homepage_6.jpg";
+import { default as quiz_thumb } from "./assets/react/Quiz_app/quiz_thumb.png";
+import { default as quiz_1 } from "./assets/react/Quiz_app/quiz_1.PNG";
+import { default as quiz_2 } from "./assets/react/Quiz_app/quiz_2.PNG";
+import { default as quiz_3 } from "./assets/react/Quiz_app/quiz_3.PNG";
+import { default as quiz_4 } from "./assets/react/Quiz_app/quiz_4.PNG";
+import { default as quiz_5 } from "./assets/react/Quiz_app/quiz_5.PNG";
+import { default as quiz_6 } from "./assets/react/Quiz_app/quiz_6.PNG";
+import { default as space_news_thumb } from "./assets/react/space_news/space_news_thumb.png";
+import { default as space_news_1 } from "./assets/react/space_news/space_news_1.png";
+import { default as space_news_2 } from "./assets/react/space_news/space_news_2.png";
+import { default as space_news_3 } from "./assets/react/space_news/space_news_3.png";
+import { default as space_news_4 } from "./assets/react/space_news/space_news_4.png";
+import { default as space_news_5 } from "./assets/react/space_news/space_news_5.png";
+import { default as space_news_6 } from "./assets/react/space_news/space_news_6.png";
+import { default as space_news_7 } from "./assets/react/space_news/space_news_7.png";
 import { default as CS50x } from "./assets/certifications/CS50x.jpg";
 import { default as CS50w } from "./assets/certifications/CS50w.png";
 import { default as CS50w_thumb } from "./assets/certifications/CS50w_thumb.png";
@@ -220,7 +235,7 @@ export const reactProjects = [
   },
   {
     image: dashboard_thumb,
-    title: "12",
+    title: "Vanlife",
     Description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
     utilized: "JS",
@@ -229,28 +244,28 @@ export const reactProjects = [
     live_link: "",
   },
   {
-    image: dashboard_prj2,
-    title: "13",
+    image: quiz_thumb,
+    title: "Quiz app",
+    Description:
+      "A quiz app built with React JS. The guiding idea behind the approach to this project is to render a component based on the current state. The states involved included the landing stage, playing stage and finished stage. The landing stage which is the first pagen takes an input and a button to start the quiz, once the quiz is started the state is changed to playing and the appropriate component is rendered and at the end is the finished stage which renders the final component displaying the username and the score. Learn more about this project by visiting the github repository.",
+    utilized: "React JS",
+    pro_images: [quiz_1, quiz_2, quiz_3, quiz_4, quiz_5, quiz_6],
+    github_link: "https://github.com/Kb-Jr/Quiz-App",
+   
+  },
+  {
+    image: space_news_thumb,
+    title: "Space News",
     Description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
     utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
+    pro_images: [space_news_1, space_news_2, space_news_3, space_news_4, space_news_5, space_news_6, space_news_7],
     github_link: "",
     live_link: "",
   },
   {
     image: dashboard_prj2,
-    title: "14",
-    Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
-  },
-  {
-    image: dashboard_prj2,
-    title: "15",
+    title: "Games",
     Description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
     utilized: "JS",

@@ -125,6 +125,13 @@ import { default as space_news_4 } from "./assets/react/space_news/space_news_4.
 import { default as space_news_5 } from "./assets/react/space_news/space_news_5.png";
 import { default as space_news_6 } from "./assets/react/space_news/space_news_6.png";
 import { default as space_news_7 } from "./assets/react/space_news/space_news_7.png";
+import { default as games_thumb } from "./assets/react/games/games_thumb.png";
+import { default as games_1 } from "./assets/react/games/games_1.png";
+import { default as games_2 } from "./assets/react/games/games_2.png";
+import { default as games_3 } from "./assets/react/games/games_3.png";
+import { default as games_4 } from "./assets/react/games/games_4.png";
+import { default as games_5 } from "./assets/react/games/games_5.png";
+import { default as games_6 } from "./assets/react/games/games_6.png";
 import { default as CS50x } from "./assets/certifications/CS50x.jpg";
 import { default as CS50w } from "./assets/certifications/CS50w.png";
 import { default as CS50w_thumb } from "./assets/certifications/CS50w_thumb.png";
@@ -214,7 +221,7 @@ export const reactProjects = [
     image: dashboard_thumb,
     title: "Dashboard",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore totam nulla minus, architecto obcaecati illum in, nesciunt dignissimos velit odit dolor dolores culpa perspiciatis possimus quam sequi vel eveniet eaque Quasi voluptas rerum minus ex nobis, molestiae voluptatibus omnis aspernatur velit eaque labore nesciunt non soluta neque corporis nulla eius nisi.",
+      "This is a dashboard built using React JS. it exhibits the power of using third party components. The third party library used for this project is Syncfusion. Syncfusion posseses already built components that are ready to use as long as the the right dependencies are used in the appropriate way. To learn more, visit the github repository below.",
     utilized: "Javascript, React, Tailwind, CSS, Syncfusion.",
     pro_images: [
       dashboard_1,
@@ -257,21 +264,21 @@ export const reactProjects = [
     image: space_news_thumb,
     title: "Space News",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
+      "A web page which displays 10 space related news built with React JS. The space related news are fetched from the space flight news API - (https://spaceflightnewsapi.net/). Each news container previews the headline, attached image and the time of publication. Clicking on any container redirects the user to the full news page. To learn more about this project, click the github link below",
+    utilized: " React JS, API, CSS",
     pro_images: [space_news_1, space_news_2, space_news_3, space_news_4, space_news_5, space_news_6, space_news_7],
-    github_link: "",
-    live_link: "",
+    github_link: "https://github.com/Kb-Jr/Space-News",
+    
   },
   {
-    image: dashboard_prj2,
+    image: games_thumb,
     title: "Games",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "Search for Game deals. This SPA was built essentially by fetching data from an API end-point - (https://www.cheapshark.com/api/1.0/). The API url was customized to meet specific query parameter to give desired results. To learn more about this project, visit the github link below.",
+    utilized: "React JS, API, CSS",
+    pro_images: [games_1, games_2, games_3, games_4, games_5, games_6],
+    github_link: "https://github.com/Kb-Jr/Games",
+   
   },
 ];
 

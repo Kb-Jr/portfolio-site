@@ -55,15 +55,14 @@
 
 .top-nav ul {
   /* border: 0.5px solid var(--on-background); */
-  width: 57%;
+  width: 60%;
   padding: 0px 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   height: 90%;
-  border-radius: 20px;
-  /* background-color:#C0C0F2 ; */
+
 }
 
 .top-nav li {
@@ -130,6 +129,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  
 
 }
 

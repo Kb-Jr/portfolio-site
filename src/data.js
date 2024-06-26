@@ -132,8 +132,56 @@ import { default as games_3 } from "./assets/react/games/games_3.png";
 import { default as games_4 } from "./assets/react/games/games_4.png";
 import { default as games_5 } from "./assets/react/games/games_5.png";
 import { default as games_6 } from "./assets/react/games/games_6.png";
+import { default as wiki_thumb } from "./assets/django/wiki/wiki_thumb.png";
+import { default as wiki_1 } from "./assets/django/wiki/wiki_1.PNG";
+import { default as wiki_2 } from "./assets/django/wiki/wiki_2.PNG";
+import { default as wiki_3 } from "./assets/django/wiki/wiki_3.PNG";
+import { default as wiki_4 } from "./assets/django/wiki/wiki_4.PNG";
+import { default as wiki_5 } from "./assets/django/wiki/wiki_5.PNG";
+import { default as wiki_6 } from "./assets/django/wiki/wiki_6.PNG";
+import { default as wiki_7 } from "./assets/django/wiki/wiki_7.PNG";
+import { default as commerce_thumb } from "./assets/django/commerce/commerce_thumb.png";
+import { default as commerce_1 } from "./assets/django/commerce/commerce_1.PNG";
+import { default as commerce_2 } from "./assets/django/commerce/commerce_2.PNG";
+import { default as commerce_3 } from "./assets/django/commerce/commerce_3.PNG";
+import { default as commerce_4 } from "./assets/django/commerce/commerce_4.PNG";
+import { default as commerce_5 } from "./assets/django/commerce/commerce_5.PNG";
+import { default as commerce_6 } from "./assets/django/commerce/commerce_6.PNG";
+import { default as commerce_7 } from "./assets/django/commerce/commerce_7.PNG";
+import { default as commerce_8 } from "./assets/django/commerce/commerce_8.PNG";
+import { default as commerce_9 } from "./assets/django/commerce/commerce_9.PNG";
+import { default as commerce_10 } from "./assets/django/commerce/commerce_10.PNG";
+import { default as network_thumb } from "./assets/django/network/network_thumb.png";
+import { default as network_1 } from "./assets/django/network/network_1.PNG";
+import { default as network_2 } from "./assets/django/network/network_2.PNG";
+import { default as network_3 } from "./assets/django/network/network_3.PNG";
+import { default as network_4 } from "./assets/django/network/network_4.PNG";
+import { default as network_5 } from "./assets/django/network/network_5.PNG";
+import { default as network_6 } from "./assets/django/network/network_6.PNG";
+import { default as network_7 } from "./assets/django/network/network_7.PNG";
+import { default as network_8 } from "./assets/django/network/network_8.PNG";
+import { default as network_9 } from "./assets/django/network/network_9.PNG";
+import { default as network_10 } from "./assets/django/network/network_10.PNG";
+import { default as mail_thumb } from "./assets/django/mail/mail_thumb.png";
+import { default as mail_1 } from "./assets/django/mail/mail_1.PNG";
+import { default as mail_2 } from "./assets/django/mail/mail_2.PNG";
+import { default as mail_3 } from "./assets/django/mail/mail_3.PNG";
+import { default as mail_4 } from "./assets/django/mail/mail_4.PNG";
+import { default as mail_5 } from "./assets/django/mail/mail_5.PNG";
+import { default as mail_6 } from "./assets/django/mail/mail_6.PNG";
+import { default as mail_7 } from "./assets/django/mail/mail_7.PNG";
+import { default as mail_8 } from "./assets/django/mail/mail_8.PNG";
 import { default as CS50x } from "./assets/certifications/CS50x.jpg";
 import { default as CS50w } from "./assets/certifications/CS50w.png";
+import { default as taskulate_thumb } from "./assets/django/taskulate/taskulate_thumb.png";
+import { default as taskulate_1 } from "./assets/django/taskulate/taskulate_1.PNG";
+import { default as taskulate_2 } from "./assets/django/taskulate/taskulate_2.PNG";
+import { default as taskulate_3 } from "./assets/django/taskulate/taskulate_3.PNG";
+import { default as taskulate_4 } from "./assets/django/taskulate/taskulate_4.PNG";
+import { default as taskulate_5 } from "./assets/django/taskulate/taskulate_5.PNG";
+import { default as taskulate_6 } from "./assets/django/taskulate/taskulate_6.PNG";
+import { default as taskulate_7 } from "./assets/django/taskulate/taskulate_7.PNG";
+import { default as taskulate_8 } from "./assets/django/taskulate/taskulate_8.PNG";
 import { default as CS50w_thumb } from "./assets/certifications/CS50w_thumb.png";
 import { default as CS50x_thumb } from "./assets/certifications/CS50x_thumb.png";
 
@@ -258,7 +306,6 @@ export const reactProjects = [
     utilized: "React JS",
     pro_images: [quiz_1, quiz_2, quiz_3, quiz_4, quiz_5, quiz_6],
     github_link: "https://github.com/Kb-Jr/Quiz-App",
-   
   },
   {
     image: space_news_thumb,
@@ -266,9 +313,16 @@ export const reactProjects = [
     Description:
       "A web page which displays 10 space related news built with React JS. The space related news are fetched from the space flight news API - (https://spaceflightnewsapi.net/). Each news container previews the headline, attached image and the time of publication. Clicking on any container redirects the user to the full news page. To learn more about this project, click the github link below",
     utilized: " React JS, API, CSS",
-    pro_images: [space_news_1, space_news_2, space_news_3, space_news_4, space_news_5, space_news_6, space_news_7],
+    pro_images: [
+      space_news_1,
+      space_news_2,
+      space_news_3,
+      space_news_4,
+      space_news_5,
+      space_news_6,
+      space_news_7,
+    ],
     github_link: "https://github.com/Kb-Jr/Space-News",
-    
   },
   {
     image: games_thumb,
@@ -278,7 +332,6 @@ export const reactProjects = [
     utilized: "React JS, API, CSS",
     pro_images: [games_1, games_2, games_3, games_4, games_5, games_6],
     github_link: "https://github.com/Kb-Jr/Games",
-   
   },
 ];
 
@@ -403,54 +456,90 @@ export const javascriptProjects = [
 ];
 export const djangoProjects = [
   {
-    image: dashboard_prj2,
-    title: "14",
+    image: wiki_thumb,
+    title: "Wiki",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "A Wikipedia-like online encyclopedia.This project is a project for CS50's web programming with Python and Javascript. In this project, an attempt to Design a Wikipedia-like online encyclopedia was made. This project was designed using the Django framework. To learn more, visit the github repo below",
+    utilized: "Python, Django",
+    pro_images: [wiki_1, wiki_2, wiki_3, wiki_4, wiki_5, wiki_6, wiki_7],
+    github_link: "https://github.com/Kb-Jr/Wiki",
   },
   {
-    image: dashboard_prj2,
-    title: "14",
+    image: commerce_thumb,
+    title: "Commerce",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "An eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a watchlist.In this project, an attempt to Design an e-commerce web application was made. This project was designed using the Django framework.To learn more, visit the github repo below.",
+    utilized: "Python, Django",
+    pro_images: [
+      commerce_1,
+      commerce_2,
+      commerce_3,
+      commerce_4,
+      commerce_5,
+      commerce_6,
+      commerce_7,
+      commerce_8,
+      commerce_9,
+      commerce_10,
+    ],
+    github_link: "https://github.com/Kb-Jr/Commerce",
   },
   {
-    image: dashboard_prj2,
-    title: "14",
+    image: network_thumb,
+    title: "Network",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "A Twitter-like social network website for making posts and following users.This is the fourth project of CS50's web programming with Python and Javascript. In this project, an attempt to Design a social network web application was made. This project was designed using the Django framework. To learn more, visit the github repo below.",
+    utilized: "Python, Django, Javascript",
+    pro_images: [
+      network_1,
+      network_2,
+      network_3,
+      network_4,
+      network_5,
+      network_6,
+      network_7,
+      network_8,
+      network_9,
+      network_10,
+    ],
+    github_link: "https://github.com/Kb-Jr/Network",
   },
   {
-    image: dashboard_prj2,
-    title: "14",
+    image: mail_thumb,
+    title: "Mail",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "A front-end for an email client that makes API calls to send and receive emails. This is the third project for CS50's web programming with Python and Javascript. In this project, an attempt to Design a front-end for an email client that makes API calls to send and receive emails was made. This project was designed using the Django framework. To learn more, visit the github repo below.",
+    utilized: "Python, JavaScript, Django",
+    pro_images: [
+      mail_1,
+      mail_2,
+      mail_3,
+      mail_4,
+      mail_5,
+      mail_6,
+      mail_7,
+      mail_8,
+    ],
+    github_link: "https://github.com/Kb-Jr/Mail",
   },
+
   {
-    image: dashboard_prj2,
-    title: "14",
+    image: taskulate_thumb,
+    title: "Taskulate",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
-    utilized: "JS",
-    pro_images: [React_img, Javascript_img, Django_img, Frontend_mentor_img],
-    github_link: "",
-    live_link: "",
+      "This is a task web app which serves as a to-do app. The purpose of the web app is to help users keep track of activities that needs to be handled and the status of said activities. This app was built using the Django framework. To learn more, visit the github repo below.",
+    utilized: "Python, JavaScript, Django",
+    pro_images: [
+      taskulate_1,
+      taskulate_2,
+      taskulate_3,
+      taskulate_4,
+      taskulate_5,
+      taskulate_6,
+      taskulate_7,
+      taskulate_8,
+    ],
+    github_link: "https://github.com/Kb-Jr/Taskulate",
   },
 ];
 
@@ -571,13 +660,12 @@ export const listVariants = {
 export const itemVariants = {
   visible: { opacity: 1, y: 0 },
   hidden: { opacity: 0, y: -20 },
-
 };
 
 export const itemVariants2 = {
-    visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: -20 },
-}
+  visible: { opacity: 1, x: 0 },
+  hidden: { opacity: 0, x: -20 },
+};
 
 export const certificationsdata = [
   {

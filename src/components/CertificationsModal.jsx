@@ -1,9 +1,6 @@
-// ExampleComponent.js
 import React from 'react';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { easeIn, motion } from 'framer-motion';
-
 
 
 function CertificationsModal(props) {

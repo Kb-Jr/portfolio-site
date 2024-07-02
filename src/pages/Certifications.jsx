@@ -15,7 +15,7 @@ const Certifications = () => {
     initial='initial'
     animate='final'
     transition={{duration:1, ease: [0.22, 1, 0.36, 1]}}
-    className='certifications-container'>
+    className='projects-container'>
       <div className="projects-arrow">
         <div className="arrow">
           <button onClick={() => navigate('/projects')}>
@@ -23,7 +23,7 @@ const Certifications = () => {
           </button>
         </div>
       </div>
-      <div className="certifications-main">
+      <div className="projects-body">
           <div className="certifications-header">
             <h1>Certifications</h1>
           </div>

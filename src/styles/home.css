@@ -10,7 +10,6 @@
 /* home layout styles */
 
 .home-container {
-    /* border: 1px solid red; */
     height: 90%;
     width: 92%;
     position: absolute;
@@ -26,14 +25,12 @@
 .home-text {
     width: 56%;
     height: 95%;
-    /* border: 1px solid blue; */
     color: var(--on-background);
 }
 
 .home-image {
     width: 35%;
     height: 95%;
-    /* border: 1px solid green; */
     display: flex;
     justify-content: flex-start;
     transform: scaleX(-1);
@@ -42,17 +39,14 @@
 .home-arrow {
     width: 8%;
     height: 95%;
-    /* border: 1px solid gold; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home-image img {
-    
+.home-image img { 
     height: 100%;
     width: 100%;
-    /* border: 1px solid brown; */
 }
 
 .home-text h1 {
@@ -67,9 +61,7 @@
     line-height: 140px;
     font-family: lobster;
     font-weight: 100;
-    /* border: 1px solid blue; */
     padding: 0px;
-
 
 }
 
@@ -108,7 +100,6 @@ h5 {
     justify-content: space-between;
     white-space: nowrap;
     overflow: hidden;
-    /* border: 1px solid red; */
 }
 
 
@@ -141,3 +132,84 @@ h5 {
     background-color: var(--secondary);
     color: var(--background);
 }
+
+
+
+@media screen and (max-width: 1250px) {
+    #resume {
+        width: 28%;
+        font-size: 12px;
+    }
+  
+  }
+
+@media screen and (max-width: 1130px) {
+ 
+    .home-text h1 {
+
+        font-size: 120px;
+        line-height: 120px;
+       
+    }
+  
+  }
+
+  @media screen and (max-width: 1000px) {
+    .home-text h1 {
+
+        font-size: 100px;
+        line-height: 100px;
+       
+    }
+
+    #resume {
+        width: 32%;
+        font-size: 12px;
+    }
+
+    .home-text>div {
+        font-size: 42px;
+       
+    }
+
+    .home-text p{
+        font-size: 14px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+    .logos-container{
+        height: 11%;
+    }
+
+    #resume{
+        height: 9%;
+        width: 34%;
+    }
+  }
+
+@media screen and (max-width: 850px) {
+    #resume{
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    #resume{
+        width: 45%;
+    }
+
+    .home-container {
+        height: 95%;
+        width: 95%;
+        left: 2%;    
+    }
+
+}
+
+
+

@@ -1,4 +1,3 @@
-// ExampleComponent.js
 import React from 'react';
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'; import 'swiper/css';
@@ -9,13 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { easeIn, motion } from 'framer-motion';
 
 
-
-
 // import required modules
 import { EffectCoverflow, Autoplay, Pagination, } from 'swiper/modules';
-
-
-
 
 
 function Modal(props) {

@@ -15,11 +15,7 @@ const ReactProjects = () => {
     className='sub-projects-container'
     >
       <div className="projects-arrow">
-        {/* <div className="arrow">
-          <button onClick={() => navigate('/')}>
-            <FontAwesomeIcon icon="fa-solid fa-arrow-left" className='arrow-icon' />
-          </button>
-        </div> */}
+       
       </div>
 
       <div className="projects-body">

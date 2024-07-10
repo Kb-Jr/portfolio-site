@@ -209,6 +209,21 @@ h5 {
         left: 2%;    
     }
 
+    .home-image {
+        width: 0%;
+        display: none;
+    }
+
+    .home-text {
+        width: 85%;
+        margin-right: 5px;
+    }
+
+    .home-arrow{
+        width: 10%;
+    }
+
+
 }
 
 

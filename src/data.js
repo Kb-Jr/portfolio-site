@@ -216,18 +216,22 @@ export const topNavLinks = [
 export const sideNavLinks = [
   {
     name: "",
+    linkName: "Home",
     icon: "fa-solid fa-house",
   },
   {
     name: "Projects",
+    linkName: "Projects",
     icon: "fa-solid fa-diagram-project",
   },
   {
     name: "certifications",
+    linkName: "Certifications",
     icon: "fa-solid fa-certificate",
   },
   {
     name: "contact-me",
+    linkName: "Contact me",
     icon: "fa-solid fa-message",
   },
 ];

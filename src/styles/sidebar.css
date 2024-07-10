@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #F5F5F5;
+    --on-background: #282C35;
+    --secondary: #Ed6931;
+    --on-secondary: #fff;
+    --toggle-bg: #f19f7c;
+    --toggle-fg: #Ed6931;
+    --on-input: #fff;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 50%;
+    background-color: var(--background);
+    box-shadow: -5px 2px 9px 0px rgba(89, 89, 89, 0.75);
+    -webkit-box-shadow: -5px 2px 9px 0px rgba(89, 89, 89, 0.75);
+    -moz-box-shadow: -5px 2px 9px 0px rgba(89, 89, 89, 0.75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-close {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    color: var(--secondary)
+}
+
+.side-close>button {
+    border: 0.5px solid gainsboro;
+    border-radius: 50%;
+    height: 75%;
+    width: 45px;
+}
+
+.side-close>button:hover {
+    box-shadow: 1px 1px 6px 5px rgba(89, 89, 89, 0.2);
+    -webkit-box-shadow: 1px 1px 6px 5px rgba(89, 89, 89, 0.2);
+    -moz-box-shadow: 1px 1px 6px 5px rgba(89, 89, 89, 0.2);
+}
+
+.side-socials {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.side-socials ul {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-socials li {
+    width: 100%;
+
+}
+
+.sidesocials-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: var(--on-background);
+}
+
+.sidesocials-icon:hover {
+    color: var(--secondary);
+    transform: scale(120%);
+}
+
+.side-navigation {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sidenav-icon {
+    width: 100%;
+
+}
+
+.sidenav-icon-active {
+    color: var(--secondary);
+}
+
+.sidenav-item {
+    display: flex;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.sidenav-item:hover {
+    background-color: var(--secondary);
+}
+
+.sidenav-item-icon {
+    margin: 5px 15px;
+    color: var(--on-background);
+
+}
+
+.sidenav-item-name {
+    margin: 5px 0px;
+    font-weight: 500;
+    color: var(--on-background);
+
+}

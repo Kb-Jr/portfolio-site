@@ -4,14 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { projectsData } from '../data'
 import { useNavigate } from 'react-router-dom'
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
 
 
 // import required modules
@@ -28,8 +25,28 @@ function MainProjectsSlides() {
           pauseOnMouseEnter: true
         }}
         loop={true}
-        slidesPerView={3}
         spaceBetween={40}
+        breakpoints={{
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+
+          850: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+
+          650: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+          },
+
+          500: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+        }}
         pagination={{
           clickable: true,
         }}

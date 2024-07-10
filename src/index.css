@@ -249,6 +249,8 @@
   color: var(--secondary);
 }
 
+/* media queries */
+
 @media screen and (max-width: 1250px) {
   .top-nav {
     padding-left: 45%;

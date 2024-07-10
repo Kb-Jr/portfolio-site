@@ -1,38 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Montserrat&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
-  --background:#F5F5F5;
+:root {
+  --background: #F5F5F5;
   --on-background: #282C35;
-  --secondary:#Ed6931;
-  --on-secondary:#fff;
-  --toggle-bg:#f19f7c;
+  --secondary: #Ed6931;
+  --on-secondary: #fff;
+  --toggle-bg: #f19f7c;
   --toggle-fg: #Ed6931;
-  --on-input:#fff;
+  --on-input: #fff;
 }
 
 [data-theme="dark"] {
   --background: #282C35;
   --on-background: #F5F5F5;
-  --secondary:#Ed6931;
-  --on-secondary:#fff;
-  --toggle-bg:#283452;
-  --toggle-fg:#00a6ff;
+  --secondary: #Ed6931;
+  --on-secondary: #fff;
+  --toggle-bg: #283452;
+  --toggle-fg: #00a6ff;
   --on-input: #323742;
 }
 
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Raleway, sans-serif;
- 
+
 }
 
 /* Layout styling */
 
-.layout-container{
-  height: 100vh ;
+.layout-container {
+  height: 100vh;
   width: 100vw;
   position: relative;
   /* overflow: hidden; */
@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   padding-left: 55%;
-  
+
 }
 
 .top-nav ul {
@@ -64,7 +64,7 @@
 
 .top-nav li {
   cursor: pointer;
-  
+
 }
 
 .top-nav li:hover {
@@ -73,28 +73,28 @@
 
 
 /* top and bottom bar styling */
-.top-bar{
+.top-bar {
   position: absolute;
-  top:22px;
+  top: 22px;
   right: 0px;
   width: 16%;
   height: 3px;
   background-color: var(--on-background);
 }
 
-.bottom-bar{
+.bottom-bar {
   position: absolute;
   height: 26%;
   bottom: 0px;
-  left:27px;
-  width:3px;
+  left: 27px;
+  width: 3px;
   background-color: var(--on-background);
 
 }
 
 /* side navigation styling */
 
-.side-nav{
+.side-nav {
   height: 50%;
   width: 5%;
   margin: 8% 0% 0% 0%;
@@ -103,7 +103,7 @@
   align-items: center;
 }
 
-.side-nav ul{
+.side-nav ul {
   height: 90%;
   width: 90%;
   margin: auto;
@@ -111,44 +111,44 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  
+
 }
 
-.side-nav li{
+.side-nav li {
   cursor: pointer;
-  
+
 }
 
 .side-nav li:hover {
   color: var(--secondary);
 }
 
-.nav-icon{
+.nav-icon {
   height: 30px;
   width: 30px;
   font-size: 20px;
   color: var(--on-background);
-  
+
 }
 
-.nav-icon-active{
+.nav-icon-active {
   color: var(--secondary);
 }
 
 
 /* arrow styles */
 
-.arrow{
+.arrow {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
- 
+
 }
 
-.arrow > button{
+.arrow>button {
   height: 10%;
   width: 60%;
   border-radius: 50%;
@@ -160,15 +160,15 @@
   transition: transform .3s ease;
 }
 
-.arrow > button:hover{
+.arrow>button:hover {
   transform: scale(105%);
 }
 
-.arrow-icon{
+.arrow-icon {
   color: var(--secondary);
   font-size: 23px;
   background-color: transparent;
-} 
+}
 
 
 /* Slideshow styles */
@@ -179,7 +179,7 @@
   padding: 15px 40px;
   display: flex;
   position: relative;
-  
+
 }
 
 .mySwiper-main:before,
@@ -220,7 +220,7 @@
 
 }
 
-.slide-in{
+.slide-in {
   position: fixed;
   top: 0;
   left: 0;
@@ -230,7 +230,7 @@
   transform-origin: right;
 }
 
-.slide-out{
+.slide-out {
   position: fixed;
   top: 0;
   left: 0;
@@ -254,16 +254,25 @@
 @media screen and (max-width: 1250px) {
   .top-nav {
     padding-left: 45%;
-}
-}
+  }
 
+  .arrow-icon {
+    font-size: 20px;
+
+  }
+
+}
 
 @media screen and (max-width: 900px) {
   .top-nav {
     padding-left: 35%;
-  
+
   }
 
+  .arrow-icon {
+    font-size: 17px;
+
+  }
 
 }
 
@@ -271,36 +280,41 @@
   .top-nav {
     padding-left: 0%;
     width: 0%;
-  
+
   }
 
   .top-nav ul {
     width: 0%;
     display: none;
-  
+
   }
 
-  .top-bar{
+  .top-bar {
     width: 0%;
   }
 
-  .side-nav{
+  .side-nav {
     height: 0%;
     width: 0%;
   }
-  
-  .side-nav ul{
+
+  .side-nav ul {
     height: 0%;
     width: 0%;
     display: none;
   }
 
-  .bottom-bar{
-   display: none;
-  
+  .bottom-bar {
+    display: none;
+
   }
 
-  .arrow > button{
+  .arrow>button {
     width: 80%;
+  }
+
+  .arrow-icon {
+    font-size: 15px;
+
   }
 }

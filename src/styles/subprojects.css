@@ -260,6 +260,12 @@ body.active-modal {
 
 /* media queries */
 
+@media screen and (max-width: 1180px) {
+    .links {
+        width: 80%; 
+    }
+}
+
 @media screen and (max-width: 980px) {
     .projects-each {
         height: 30%;
@@ -289,6 +295,9 @@ body.active-modal {
         font-size: 13px;
         margin: 10px 3px;
 
+    }
+    .links {
+        width: 80%; 
     }
 }
 
@@ -349,6 +358,11 @@ body.active-modal {
         margin: 3% auto;
     
     }
+
+    .links {
+        width: 95%; 
+    }
+
 
 }
 

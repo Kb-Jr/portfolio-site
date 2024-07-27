@@ -114,7 +114,7 @@ body::-webkit-scrollbar {
 
 
 .modal-content {
-    height: 95%;
+    height: 95% ;
     width: 98%;
     margin: 1% auto;
     background-color: transparent;
@@ -345,9 +345,20 @@ body.active-modal {
 
     }
 
+    .modal-content {
+        margin: 3% auto;
+    
+    }
+
 }
 
 @media screen and (max-width: 400px) {
+
+    .modal-content {
+        margin: 5% auto;
+    
+    }
+
     .left-modal {
         width: 95%;
 

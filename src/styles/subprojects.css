@@ -355,7 +355,7 @@ body.active-modal {
 @media screen and (max-width: 400px) {
 
     .modal-content {
-        margin: 5% auto;
+        margin: 10% auto;
     
     }
 

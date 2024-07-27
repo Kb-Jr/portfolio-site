@@ -151,5 +151,24 @@
     
     }
 
+ 
+
+}
+
+@media screen and (max-width: 750px) {
+    .projects-header-text h6 {
+        font-size: 26px;
+        line-height: 30px;
+      
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .projects-header-text h6 {
+        font-size: 22px;
+        line-height: 26px;
+      
+    }
 
 }

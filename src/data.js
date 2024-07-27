@@ -289,18 +289,18 @@ export const reactProjects = [
       dashboard_11,
       dashboard_12,
     ],
-    github_link: "github.com",
-    live_link: "http.com",
+    github_link: "https://github.com/Kb-Jr/Dashboard",
+    live_link: "https://syncxdashboard.netlify.app/",
   },
   {
     image: dashboard_thumb,
     title: "Vanlife",
     Description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo accusantium reiciendis quos excepturi nesciunt, consequuntur eligendi dolor laudantium hic distinctio sapiente, officiis beatae quas, commodi natus tenetur atque eaque consequatur.",
+      "A project used to learn React router 6. Features learned inluded shared layouts, error boundaries, loaders, protected routes, nested routes, filtering, parameter based routing, fetching from API's, using Firebase etc. This was created by Bob Ziroll",
     utilized: "JS",
     pro_images: [Django_img, Javascript_img, Frontend_mentor_img, React_img],
-    github_link: "",
-    live_link: "",
+    github_link: "https://github.com/Kb-Jr/Vanlife",
+    live_link: "https://vanlifetogo.netlify.app/",
   },
   {
     image: quiz_thumb,
@@ -674,14 +674,12 @@ export const itemVariants2 = {
 export const certificationsdata = [
   {
     title: "CS50x",
-    description: "",
-    thumbnail: CS50x_thumb,
+    description: "CS50x is a free introductory computer science course offered by Harvard University through edX. It is designed to provide students with a broad understanding of computer science and programming, regardless of their prior experience. The course covers topics, including: Intro to Comp. sci., programming in C, Algorithms and data structures, web development, python, flask, memory management, security and SQL as well as a final capstone project.",
     image: CS50x,
   },
   {
     title: "CS50w",
-    description: "",
-    thumbnail: CS50w_thumb,
+    description: "CS50w, or Web Programming with Python and JavaScript, is an advanced course offered by Harvard University through edX. It is designed for students who have completed CS50x or have equivalent programming experience. It focuses on the development of web applications using modern programming languages and frameworks. The topics covered include: HTML, CSS and Git, Django, SQL models and migrations, Ethics, javascript, Testing, CI/CD, security, introduction to frontend frameworks and a final project.",
     image: CS50w,
   },
 ];

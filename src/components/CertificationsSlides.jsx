@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { reactProjects } from '../data'
-import { Modal } from '..';
+import { certificationsdata } from '../data'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -13,41 +13,39 @@ import 'swiper/css/autoplay';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
-function ReactProjectsSlides() {
+function CertificationsSlides() {
   return (
     <>
       <Swiper
         autoplay={{
-          delay: 20000,
+          delay: 5000,
           pauseOnMouseEnter: true
         }}
         loop={true}
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={40}
         pagination={{
           clickable: true,
         }}
 
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper-cert"
         style={{ "--swiper-pagination-color": "#Ed6931" }}
       >
-        {reactProjects.map((item) => {
+        {certificationsdata.map((item) => {
           return (
             <>
-            <SwiperSlide key={crypto.randomUUID()}>
-              <div className="project-image-container">
+            <SwiperSlide key={crypto.randomUUID()} className='cert-slides-main'>
+              <div className="cert-image-container">
                 <img src={item.image} alt="" className='project-image' />
               </div>
-              <div className="project-text-container">
+              <div className="cert-text-container">
                 <h4>{item.title}</h4>
-                <p>{item.Description}</p>
+                <p>{item.description}</p>
               </div>
               
             </SwiperSlide>
-            <div className="project-click-container">
-                  <Modal title={item.title} description={item.Description}/>
-              </div>
+            
             </>
               
            
@@ -58,4 +56,4 @@ function ReactProjectsSlides() {
   )
 }
 
-export default ReactProjectsSlides;
+export default CertificationsSlides;

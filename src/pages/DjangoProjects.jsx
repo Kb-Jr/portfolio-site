@@ -36,7 +36,6 @@ const DjangoProjects = () => {
                   animate={{opacity:1}}
                   transition={{duration:1, delay:1, ease: [0.22, 1, 0.36, 1]}}
                   className='projects-each' key={crypto.randomUUID()}>
-                  {/* <h1>{item.title}</h1> */}
                   <div className='projects-each-image'>
                     <img src={item.image} alt="" />
                   </div>

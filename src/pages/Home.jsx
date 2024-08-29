@@ -32,7 +32,7 @@ const Home = () => {
       <div className="home-text">
         <h1>Hi!</h1>
         <div>I'm <span>Kabir</span></div>
-        <p>I build functional, interactive, aethetically pleasing and scalable websites and web-apps. My skillset guarantees delivery of quality and standard products that meets the demands of individuals, businesses and brands on their quest to achieve an online presence. As a forever student and one who takes pride in my work, i am constantly adapting to new technology and improving my functional competencies to ensure my work is always state of the art. 
+        <p>I build functional, interactive, aethetically pleasing and scalable websites and web-apps. My skillset guarantees delivery of quality and standard products that meets the demands of individuals, businesses and brands on their quest to achieve an online presence. As a "forever student" and one who takes pride in my work, i am constantly adapting to new technology and improving my functional competencies to ensure my output is always consistent with what is considered state of the art. 
         </p>
 
         <h5>I have experience in using the following:</h5>

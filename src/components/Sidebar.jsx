@@ -36,7 +36,10 @@ const Sidebar = () => {
                                 return (
                                     <button key={crypto.randomUUID()} className='sidesocials-icon' onClick={
                                         () => window.open(`${item.url}`, '_blank', 'noopener')
-                                    }><motion.li variants={itemVariants}><FontAwesomeIcon icon={item.icon} /></motion.li></button>
+                                        
+                                    }
+                                    
+                                    ><motion.li variants={itemVariants}><FontAwesomeIcon icon={item.icon} /></motion.li></button>
 
 
                                 )

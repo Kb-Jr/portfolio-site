@@ -225,3 +225,26 @@ h5 {
 
 
 }
+
+@media screen and (max-width: 420px) {
+    #resume {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .home-container {
+        height: 8%;
+        left: 1%;
+    }
+
+    .home-text p{
+        font-size: 12px;
+    }
+
+    .home-text h5{
+        font-size: 15px;
+        margin-top: 7px;
+    }
+
+
+}

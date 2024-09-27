@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { projectsData } from '../data'
@@ -8,6 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 

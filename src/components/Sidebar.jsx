@@ -12,6 +12,10 @@ const Sidebar = () => {
     const activeLink = 'sidenav-icon-active';
     const normalLink = 'sidenav-icon';
 
+    const handlecloseSidebar = () => {
+        setactiveMenu((prevactiveMenu) => !prevactiveMenu)
+    }
+
     return (
         <>
             {activeMenu && (
@@ -35,7 +39,17 @@ const Sidebar = () => {
                             {topNavLinks.map((item) => {
                                 return (
                                     <button key={crypto.randomUUID()} className='sidesocials-icon' onClick={
-                                        () => window.open(`${item.url}`, '_blank', 'noopener')
+                                        () => {
+                                        
+                                        const openLink = () => {
+                                            window.open(`${item.url}`, '_blank', 'noopener')
+                                        };
+
+                                        const handlecloseSidebar = () => {
+                                            setactiveMenu((prevactiveMenu) => !prevactiveMenu)
+                                        };
+                                        openLink(); handlecloseSidebar();
+                                    }
                                         
                                     }
                                     
@@ -58,7 +72,7 @@ const Sidebar = () => {
                                 return (
 
                                     <NavLink key={crypto.randomUUID()} to={`/${item.name}`} className={({ isActive }) =>
-                                        isActive ? activeLink : normalLink}>
+                                        isActive ? activeLink : normalLink} onClick={handlecloseSidebar}>
                                         <div className='sidenav-item'>
                                             <motion.div variants={itemVariants2} className='sidenav-item-icon'><FontAwesomeIcon icon={item.icon} /></motion.div>
                                             <motion.div variants={itemVariants2} className='sidenav-item-name'>{item.linkName}</motion.div>

@@ -13,8 +13,8 @@ const Home = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Resume.docx'; // URL to the document
-    link.download = 'Resume.docx'; // Name of the downloaded file
+    link.href = '/Kabiru Abdul.docx'; // URL to the document
+    link.download = 'Kabiru Abdul.docx'; // Name of the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
